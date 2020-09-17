@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import time
+import datetime
 import re
 import json
 
@@ -45,4 +46,18 @@ def get_contest(lang):
         c.append(contestdict)
     return c
 
-print(*get_contest("en"))
+def make_time_based_object(lang):
+    k=dict()
+    for c in range(len(lang)):
+        d={i:int(j)for i,j in lang[c]["date"].items()}
+        da=datetime.datetime(year=d["year"],hour=d["hour"],month=d["month"],day=d["day"],minute=d["minute"],second=d["second"])
+        k.setdefault(da,[]).append(lang[c])#ABC,ARC同時開催用
+    return k
+
+def get_diff_from_ja_and_en():
+    ja=make_time_based_object(get_contest("ja"))
+    sja=set(ja.keys())
+    en=make_time_based_object(get_contest("en"))
+    sen=set(ja.keys())
+    both=[]#両方とも
+    #for i in 
