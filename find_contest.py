@@ -16,5 +16,6 @@ for tr in table.find_all("tr"):
     ctime=contest[0].find("time").text
     cdtime=contest[2].text
     rated=contest[3].text
-    year,month,day,hour,mi,se,plus=re.split(r"[\-:\+ ]",ctime)
+    year,month,day,hour,minutes,se,plus=re.split(r"[\-:\+ ]",ctime)
+    dhour,dminutes=cdtime.split(":")
     print(cname,ctime,cdtime,rated)
