@@ -45,4 +45,4 @@ def get_contest(lang):
         c.append(contestdict)
     return c
 
-print(*get_contest("en"))
+print(*get_contest("en"))#
