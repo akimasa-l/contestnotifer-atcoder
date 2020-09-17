@@ -6,15 +6,16 @@
         "month":"00",
         "day":"00",
         "hour":"00",
-        "minutes":"00",
+        "minute":"00",
         "second":"00",
         "gmt":"0900"
     },
     "dtime":{
         "hour":"01",
-        "minutes":"40"
+        "minute":"40"
     },
-    "rated":" ~ 1999"
+    "rated":" ~ 1999",
+    "url":"https://atcoder.jp/contests/abcXXX"
 },
 {
     "name":"AtCoder Regular Contest XXX",
@@ -23,15 +24,16 @@
         "month":"00",
         "day":"00",
         "hour":"00",
-        "minutes":"00",
+        "minute":"00",
         "second":"00",
         "gmt":"0900"
     },
     "dtime":{
         "hour":"02",
-        "minutes":"20"
+        "minute":"20"
     },
-    "rated":"1200 ~ "
+    "rated":"1200 ~ ",
+    "url":"https://atcoder.jp/contests/arcXXX"
 },
 {
     "name":"ACL Contest XXX",
@@ -40,14 +42,15 @@
         "month":"00",
         "day":"00",
         "hour":"00",
-        "minutes":"00",
+        "minute":"00",
         "second":"00",
         "gmt":"0900"
     },
     "dtime":{
         "hour":"01",
-        "minutes":"40"
+        "minute":"40"
     },
-    "rated":"1200 ~ 2799"
+    "rated":"1200 ~ 2799",
+    "url":"https://atcoder.jp/contests/acl2"
 }
 ]
