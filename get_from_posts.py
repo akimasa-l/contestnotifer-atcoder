@@ -13,12 +13,13 @@ for info in b.select(".panel-default"):
     cname=info.find("a").text
     if not(re.match(".*告知",cname)):
         continue
-    print(cname.replace(" 告知",""))
+    cname=cname.replace(" 告知","")
     li=info.text.split("- ")
-    pronum=li[4]
+    pronum=li[4].split()
     writers=li[5][7:]
     #print(writers)
     ws=[writer.text for writer in BeautifulSoup(writers,"html.parser").find_all("span")]
-    point=re.search("配点は .* です。",info.text).group()[4:-4]
-    print(pronum,ws,point)
+    point=re.search("配点は .* です。",info.text).group()#[4:-4]
+    print(cname,pronum,ws,point)
+
 print(c)
