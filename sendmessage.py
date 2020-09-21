@@ -10,4 +10,4 @@ def sendmessage(to):
     headers={"Content-Type":"application/json","Authorization":f"Bearer {BearerToken}"}
     message={"type":"text","text":"ぶおぶおぶお〜〜〜〜〜"}
     messages=[message]
-    requests.post(url=url,header=headers,params=messages)
+    requests.post(url=url,header=headers,data=messages)
