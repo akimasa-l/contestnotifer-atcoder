@@ -1,3 +1,5 @@
+# coding: utf-8
+
 import requests
 from bs4 import BeautifulSoup
 import time
@@ -63,4 +65,7 @@ def get_diff_from_ja_and_en():
     #for i in 
 
 
-print(get_contest("ja"))
+#print(get_contest("ja"))
+
+with open("./find_contest.json",mode="w") as f:
+    f.write(json.dumps(get_contest("ja"),indent=4))

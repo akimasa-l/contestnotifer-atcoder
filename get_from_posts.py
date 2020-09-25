@@ -27,4 +27,7 @@ def get_from_posts():
     #print(c)
     return c
 
-print(get_from_posts())
+#print(get_from_posts())
+
+with open("./get_from_posts.json",mode="w") as f:
+    f.write(json.dumps(get_from_posts(),indent=4))
