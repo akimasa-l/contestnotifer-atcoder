@@ -1,5 +1,5 @@
-[
-    {
+{
+    "ACL Contest 2": {
         "name": "ACL Contest 2",
         "date": {
             "year": "2020",
@@ -15,9 +15,12 @@
             "minute": "30"
         },
         "rated": "1200 ~ 2799",
-        "url": "https://atcoder.jp/contests/acl2"
+        "url": "https://atcoder.jp/contests/acl2",
+        "writer": "null",
+        "problemnumber": "null",
+        "point": "null"
     },
-    {
+    "AtCoder Regular Contest 104": {
         "name": "AtCoder Regular Contest 104",
         "date": {
             "year": "2020",
@@ -33,9 +36,12 @@
             "minute": "40"
         },
         "rated": " ~ 2799",
-        "url": "https://atcoder.jp/contests/arc104"
+        "url": "https://atcoder.jp/contests/arc104",
+        "writer": "null",
+        "problemnumber": "null",
+        "point": "null"
     },
-    {
+    "HHKB \u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u30b3\u30f3\u30c6\u30b9\u30c8 2020": {
         "name": "HHKB \u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u30b3\u30f3\u30c6\u30b9\u30c8 2020",
         "date": {
             "year": "2020",
@@ -51,9 +57,12 @@
             "minute": "40"
         },
         "rated": " ~ 1999",
-        "url": "https://atcoder.jp/contests/hhkb2020"
+        "url": "https://atcoder.jp/contests/hhkb2020",
+        "writer": "null",
+        "problemnumber": "null",
+        "point": "null"
     },
-    {
+    "AtCoder Regular Contest 105": {
         "name": "AtCoder Regular Contest 105",
         "date": {
             "year": "2020",
@@ -69,6 +78,9 @@
             "minute": "40"
         },
         "rated": " ~ 2799",
-        "url": "https://atcoder.jp/contests/arc105"
+        "url": "https://atcoder.jp/contests/arc105",
+        "writer": "null",
+        "problemnumber": "null",
+        "point": "null"
     }
-]
+}
