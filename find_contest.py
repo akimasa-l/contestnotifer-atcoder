@@ -61,3 +61,6 @@ def get_diff_from_ja_and_en():
     sen=set(ja.keys())
     both=[]#両方とも
     #for i in 
+
+
+print(get_contest("ja"))
