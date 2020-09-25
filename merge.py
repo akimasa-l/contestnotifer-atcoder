@@ -1,6 +1,8 @@
 # coding: utf-8
 import json
 
+#なんかいろいろやる
+
 def make_name_based_object(a):
     return {i["name"]:i for i in a}
 
