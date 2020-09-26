@@ -2,8 +2,8 @@ import requests
 import json
 
 reference="https://developers.line.biz/ja/reference/messaging-api/#send-reply-message"
-
-BearerToken=""
+with open("accesstoken.txt") as f:
+    BearerToken=f.read().rstrip()
 
 def sendmessage(to):
     with open("./messages.json") as f:
@@ -18,4 +18,6 @@ def sendmessage(to):
     }
     requests.post(url,headers=headers,data=json.dumps(body))
 
-sendmessage("to")
+with open("to.txt") as f:
+        to=f.read().rstrip()
+sendmessage(to)
