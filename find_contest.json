@@ -1,6 +1,6 @@
 [
     {
-        "name": "ACL Contest 2",
+        "name": "ACL Beginner Contest",
         "date": {
             "year": "2020",
             "month": "09",
@@ -11,11 +11,29 @@
             "gmt": "0900"
         },
         "dtime": {
+            "hour": "01",
+            "minute": "40"
+        },
+        "rated": " ~ 1999",
+        "url": "https://atcoder.jp/contests/abl"
+    },
+    {
+        "name": "Chokudai Contest 005",
+        "date": {
+            "year": "2020",
+            "month": "09",
+            "day": "27",
+            "hour": "21",
+            "minute": "00",
+            "second": "00",
+            "gmt": "0900"
+        },
+        "dtime": {
             "hour": "02",
             "minute": "30"
         },
-        "rated": "1200 ~ 2799",
-        "url": "https://atcoder.jp/contests/acl2"
+        "rated": "-",
+        "url": "https://atcoder.jp/contests/chokudai005"
     },
     {
         "name": "AtCoder Regular Contest 104",

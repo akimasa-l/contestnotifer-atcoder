@@ -28,8 +28,9 @@ def merge_contests_and_posts(contests,posts):
             for j in ("writer","problemnumber","point"):
                 ad[j]=bd[j]
         else:
-            for j in ("writer","problemnumber","point"):
+            for j in ("problemnumber","point"):
                 ad[j]="null"
+            ad["writer"]=[]
     
     #print(*(an.items()),sep="\n")
     return an
@@ -59,11 +60,12 @@ def get_diffs(past,now):#want name_based
             messages.append(make_message(1,now[i]))
 
 def get_near(now):#want original
-    nowdate=datetime.datetime.now(tzinfo="JST")
+    JST = datetime.timezone(datetime.timedelta(hours=+9), 'JST')
+    nowdate=datetime.datetime.now(JST)
     for i in now:
-        date=i["date"]
-        cdate=datetime(date["year"], date["month"], date["day"], date["hour"], date["minute"], date["second"], date["microsecond"],tzinfo="JST")
-        if cdate-nowdate<datetime.timedelta(hours=1,minute=30):
+        date={j:int(k)for j,k in i["date"].items()}
+        cdate=datetime.datetime(date["year"], date["month"], date["day"], date["hour"], date["minute"], date["second"],tzinfo=JST)
+        if cdate-nowdate<datetime.timedelta(hours=1,minutes=30):
             messages.append(make_message(0,i))
 
 def main():
