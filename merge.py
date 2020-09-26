@@ -5,7 +5,7 @@ import time
 import subprocess
 
 #なんかいろいろやる
-
+JST = datetime.timezone(datetime.timedelta(hours=+9), 'JST')
 messages=[]
 
 def make_name_based_object(a):
@@ -37,8 +37,8 @@ def merge_contests_and_posts(contests,posts):
     return an
 
 def make_message(flag,message):
-    date=message["date"]
-    cdate=datetime(date["year"], date["month"], date["day"], date["hour"], date["minute"], date["second"], date["microsecond"],tzinfo="JST")
+    date={j:int(k)for j,k in message["date"].items()}
+    cdate=datetime.datetime(date["year"], date["month"], date["day"], date["hour"], date["minute"], date["second"],tzinfo=JST)
     head="【新しいコンテストが追加されました】"if flag else "【コンテスト一時間前】"
     return head+f"""
 
@@ -47,10 +47,10 @@ def make_message(flag,message):
 コンテストページ ： {message["url"]}
 開始時刻 ： {cdate.strftime('%Y-%m-%d(%a) %H:%M')}
 コンテスト時間 ： {message["dtime"]["hour"]}時間 {message["dtime"]["minute"]}分
-問題数： {message["problemnumber"]}
+問題数： {message["problemnumber"][1]}
 writer： {", ".join(message["writer"])}
 レーティング変化： {message["rated"]}
-配点は {message["point"]} です。
+{message["point"]}
 
 皆様、是非ご参加ください！"""
 
@@ -61,7 +61,6 @@ def get_diffs(past,now):#want name_based
             messages.append(make_message(1,now[i]))
 
 def get_near(now):#want original
-    JST = datetime.timezone(datetime.timedelta(hours=+9), 'JST')
     nowdate=datetime.datetime.now(JST)
     for i in now:
         date={j:int(k)for j,k in i["date"].items()}
