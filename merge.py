@@ -81,6 +81,6 @@ def main():
     get_diffs(past,merged)
     get_near(make_original(merged))
     if messages:
-        pass
-
+        with open("./messages.json",mode="w") as f:
+            f.write(json.dumps(messages,indent=4))
 main()
