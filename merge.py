@@ -2,6 +2,7 @@
 import json
 import datetime
 import time
+import subprocess
 
 #なんかいろいろやる
 
@@ -83,4 +84,5 @@ def main():
     if messages:
         with open("./messages.json",mode="w") as f:
             f.write(json.dumps(messages,indent=4))
+        subprocess.run("python3 ./sendmessage.py")
 main()
