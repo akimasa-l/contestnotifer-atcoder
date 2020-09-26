@@ -2,7 +2,7 @@ import requests
 import json
 
 reference="https://developers.line.biz/ja/reference/messaging-api/#send-reply-message"
-with open(r"C:\For-mingzheng\pythonforme\ContestNotifier\accesstoken.txt") as f:
+with open("../accesstoken.txt") as f:
     BearerToken=f.read().rstrip()
 
 with open("./messages.json") as f:
@@ -21,7 +21,7 @@ def sendmessage(to,contest):
     h=requests.post(url,headers=headers,data=json.dumps(body))
     print(h.text)
 
-with open(r"C:\For-mingzheng\pythonforme\ContestNotifier\to.txt") as f:
+with open("../to.txt") as f:
     to=f.read().rstrip()
 
 for contest in contests:
