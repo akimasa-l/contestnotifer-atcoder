@@ -22,7 +22,8 @@ def sendmessage(to,contest):
     print(h.text)
 
 with open("../to.txt") as f:
-    to=f.read().rstrip()
+    toto=f.read().split()
 
 for contest in contests:
-    sendmessage(to,contest)
+    for to in toto:
+        sendmessage(to,contest)
