@@ -1,5 +1,16 @@
 [
     {
+        "name": "AtCoder Regular Contest 104",
+        "problemnumber": [
+            "\u554f\u984c\u6570\uff1a",
+            "6"
+        ],
+        "writer": [
+            "satashun"
+        ],
+        "point": "\u914d\u70b9\u306f 100-400-600-700-700-1000 \u3067\u3059\u3002"
+    },
+    {
         "name": "ACL Beginner Contest",
         "problemnumber": [
             "\u554f\u984c\u6570\uff1a",
@@ -83,27 +94,5 @@
             "ynymxiaolongbao"
         ],
         "point": "\u914d\u70b9\u306f 100-200-300-400-500-600 \u3067\u3059\u3002"
-    },
-    {
-        "name": "AtCoder Beginner Contest 175",
-        "problemnumber": [
-            "\u554f\u984c\u6570\uff1a",
-            "6"
-        ],
-        "writer": [
-            "satashun"
-        ],
-        "point": "\u914d\u70b9\u306f 100-200-300-400-500-600 \u3067\u3059\u3002"
-    },
-    {
-        "name": "AtCoder Grand Contest 047",
-        "problemnumber": [
-            "\u554f\u984c\u6570\uff1a",
-            "6"
-        ],
-        "writer": [
-            "Errichto"
-        ],
-        "point": "\u914d\u70b9\u306f 300 - 700 - 800 - 1000 - 1800 (800) - 2200 \u3067\u3059\u3002"
     }
 ]

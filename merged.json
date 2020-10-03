@@ -1,51 +1,4 @@
 {
-    "ACL Beginner Contest": {
-        "name": "ACL Beginner Contest",
-        "date": {
-            "year": "2020",
-            "month": "09",
-            "day": "26",
-            "hour": "21",
-            "minute": "00",
-            "second": "00",
-            "gmt": "0900"
-        },
-        "dtime": {
-            "hour": "01",
-            "minute": "40"
-        },
-        "rated": " ~ 1999",
-        "url": "https://atcoder.jp/contests/abl",
-        "writer": [
-            "rng58_admin"
-        ],
-        "problemnumber": [
-            "\u554f\u984c\u6570\uff1a",
-            "0"
-        ],
-        "point": "\u914d\u70b9\u306f 100-200-300-400-500-600 \u3067\u3059\u3002"
-    },
-    "Chokudai Contest 005": {
-        "name": "Chokudai Contest 005",
-        "date": {
-            "year": "2020",
-            "month": "09",
-            "day": "27",
-            "hour": "21",
-            "minute": "00",
-            "second": "00",
-            "gmt": "0900"
-        },
-        "dtime": {
-            "hour": "02",
-            "minute": "30"
-        },
-        "rated": "-",
-        "url": "https://atcoder.jp/contests/chokudai005",
-        "problemnumber": "null",
-        "point": "null",
-        "writer": []
-    },
     "AtCoder Regular Contest 104": {
         "name": "AtCoder Regular Contest 104",
         "date": {
@@ -58,14 +11,45 @@
             "gmt": "0900"
         },
         "dtime": {
-            "hour": "01",
-            "minute": "40"
+            "hour": "02",
+            "minute": "00"
         },
         "rated": " ~ 2799",
         "url": "https://atcoder.jp/contests/arc104",
-        "problemnumber": "null",
+        "writer": [
+            "satashun"
+        ],
+        "problemnumber": [
+            "\u554f\u984c\u6570\uff1a",
+            "6"
+        ],
+        "point": "\u914d\u70b9\u306f 100-400-600-700-700-1000 \u3067\u3059\u3002"
+    },
+    "Kyoto University Programming Contest 2020": {
+        "name": "Kyoto University Programming Contest 2020",
+        "date": {
+            "year": "2020",
+            "month": "10",
+            "day": "10",
+            "hour": "13",
+            "minute": "00",
+            "second": "00",
+            "gmt": "0900"
+        },
+        "dtime": {
+            "hour": "05",
+            "minute": "00"
+        },
+        "rated": "-",
+        "url": "https://atcoder.jp/contests/kupc2020",
         "point": "null",
-        "writer": []
+        "writer": [
+            "null"
+        ],
+        "problemnumber": [
+            "\u554f\u984c\u6570\uff1a",
+            "null"
+        ]
     },
     "HHKB \u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u30b3\u30f3\u30c6\u30b9\u30c8 2020": {
         "name": "HHKB \u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u30b3\u30f3\u30c6\u30b9\u30c8 2020",
@@ -84,9 +68,14 @@
         },
         "rated": " ~ 1999",
         "url": "https://atcoder.jp/contests/hhkb2020",
-        "problemnumber": "null",
         "point": "null",
-        "writer": []
+        "writer": [
+            "null"
+        ],
+        "problemnumber": [
+            "\u554f\u984c\u6570\uff1a",
+            "null"
+        ]
     },
     "AtCoder Regular Contest 105": {
         "name": "AtCoder Regular Contest 105",
@@ -105,8 +94,13 @@
         },
         "rated": " ~ 2799",
         "url": "https://atcoder.jp/contests/arc105",
-        "problemnumber": "null",
         "point": "null",
-        "writer": []
+        "writer": [
+            "null"
+        ],
+        "problemnumber": [
+            "\u554f\u984c\u6570\uff1a",
+            "null"
+        ]
     }
 }

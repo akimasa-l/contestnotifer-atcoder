@@ -29,9 +29,9 @@ def merge_contests_and_posts(contests,posts):
             for j in ("writer","problemnumber","point"):
                 ad[j]=bd[j]
         else:
-            for j in ("problemnumber","point"):
-                ad[j]="null"
-            ad["writer"]=[]
+            ad["point"]="null"
+            ad["writer"]=["null"]
+            ad["problemnumber"]=["問題数：","null"]
     
     #print(*(an.items()),sep="\n")
     return an
@@ -50,7 +50,7 @@ def make_message(flag,message):
 問題数： {message["problemnumber"][1]}
 writer： {", ".join(message["writer"])}
 レーティング変化： {message["rated"]}
-{message["point"]}
+{message["point"] if message["point"]!="null" else "配点わからん"}
 
 皆様、是非ご参加ください！"""
 

@@ -1,41 +1,5 @@
 [
     {
-        "name": "ACL Beginner Contest",
-        "date": {
-            "year": "2020",
-            "month": "09",
-            "day": "26",
-            "hour": "21",
-            "minute": "00",
-            "second": "00",
-            "gmt": "0900"
-        },
-        "dtime": {
-            "hour": "01",
-            "minute": "40"
-        },
-        "rated": " ~ 1999",
-        "url": "https://atcoder.jp/contests/abl"
-    },
-    {
-        "name": "Chokudai Contest 005",
-        "date": {
-            "year": "2020",
-            "month": "09",
-            "day": "27",
-            "hour": "21",
-            "minute": "00",
-            "second": "00",
-            "gmt": "0900"
-        },
-        "dtime": {
-            "hour": "02",
-            "minute": "30"
-        },
-        "rated": "-",
-        "url": "https://atcoder.jp/contests/chokudai005"
-    },
-    {
         "name": "AtCoder Regular Contest 104",
         "date": {
             "year": "2020",
@@ -47,11 +11,29 @@
             "gmt": "0900"
         },
         "dtime": {
-            "hour": "01",
-            "minute": "40"
+            "hour": "02",
+            "minute": "00"
         },
         "rated": " ~ 2799",
         "url": "https://atcoder.jp/contests/arc104"
+    },
+    {
+        "name": "Kyoto University Programming Contest 2020",
+        "date": {
+            "year": "2020",
+            "month": "10",
+            "day": "10",
+            "hour": "13",
+            "minute": "00",
+            "second": "00",
+            "gmt": "0900"
+        },
+        "dtime": {
+            "hour": "05",
+            "minute": "00"
+        },
+        "rated": "-",
+        "url": "https://atcoder.jp/contests/kupc2020"
     },
     {
         "name": "HHKB \u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u30b3\u30f3\u30c6\u30b9\u30c8 2020",
