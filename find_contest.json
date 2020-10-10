@@ -1,23 +1,5 @@
 [
     {
-        "name": "\u4eac\u90fd\u5927\u5b66\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u30b3\u30f3\u30c6\u30b9\u30c8 2020",
-        "date": {
-            "year": "2020",
-            "month": "10",
-            "day": "10",
-            "hour": "13",
-            "minute": "00",
-            "second": "00",
-            "gmt": "0900"
-        },
-        "dtime": {
-            "hour": "05",
-            "minute": "00"
-        },
-        "rated": "-",
-        "url": "https://atcoder.jp/contests/kupc2020"
-    },
-    {
         "name": "HHKB \u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u30b3\u30f3\u30c6\u30b9\u30c8 2020",
         "date": {
             "year": "2020",
@@ -47,8 +29,8 @@
             "gmt": "0900"
         },
         "dtime": {
-            "hour": "00",
-            "minute": "10"
+            "hour": "01",
+            "minute": "40"
         },
         "rated": " ~ 2799",
         "url": "https://atcoder.jp/contests/arc105"
