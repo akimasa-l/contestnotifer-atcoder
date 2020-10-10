@@ -16,7 +16,7 @@ Expected Responce:
 ["akimasa_l","tourist","chokudai","blacky555","yudai0418","sasanoha","orangecolor","2plus2equal57"]
 ```
 
-###Example in Python
+### Example in Python
 
 ```python:getAtCoderIdList.py
 
