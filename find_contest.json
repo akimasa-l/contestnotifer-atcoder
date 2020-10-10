@@ -1,24 +1,6 @@
 [
     {
-        "name": "AtCoder Regular Contest 104",
-        "date": {
-            "year": "2020",
-            "month": "10",
-            "day": "03",
-            "hour": "21",
-            "minute": "00",
-            "second": "00",
-            "gmt": "0900"
-        },
-        "dtime": {
-            "hour": "02",
-            "minute": "00"
-        },
-        "rated": " ~ 2799",
-        "url": "https://atcoder.jp/contests/arc104"
-    },
-    {
-        "name": "Kyoto University Programming Contest 2020",
+        "name": "\u4eac\u90fd\u5927\u5b66\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u30b3\u30f3\u30c6\u30b9\u30c8 2020",
         "date": {
             "year": "2020",
             "month": "10",
@@ -59,6 +41,42 @@
             "year": "2020",
             "month": "10",
             "day": "11",
+            "hour": "22",
+            "minute": "30",
+            "second": "00",
+            "gmt": "0900"
+        },
+        "dtime": {
+            "hour": "00",
+            "minute": "10"
+        },
+        "rated": " ~ 2799",
+        "url": "https://atcoder.jp/contests/arc105"
+    },
+    {
+        "name": "AtCoder Grand Contest 048",
+        "date": {
+            "year": "2020",
+            "month": "10",
+            "day": "18",
+            "hour": "21",
+            "minute": "00",
+            "second": "00",
+            "gmt": "0900"
+        },
+        "dtime": {
+            "hour": "01",
+            "minute": "50"
+        },
+        "rated": "All",
+        "url": "https://atcoder.jp/contests/agc048"
+    },
+    {
+        "name": "AtCoder Regular Contest 106",
+        "date": {
+            "year": "2020",
+            "month": "10",
+            "day": "24",
             "hour": "21",
             "minute": "00",
             "second": "00",
@@ -69,6 +87,6 @@
             "minute": "40"
         },
         "rated": " ~ 2799",
-        "url": "https://atcoder.jp/contests/arc105"
+        "url": "https://atcoder.jp/contests/arc106"
     }
 ]
