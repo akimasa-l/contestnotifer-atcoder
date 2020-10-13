@@ -81,7 +81,10 @@ def main():
     get_diffs(past,merged)
     get_near(make_original(merged))
     if messages:
+        print(f"New {len(messages)} messages found.")
         with open("./messages.json",mode="w") as f:
             f.write(json.dumps(messages,indent=4))
         subprocess.run("python3 ./sendmessage.py")
+    else:
+        print("No new messages.")
 main()

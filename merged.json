@@ -1,56 +1,4 @@
 {
-    "HHKB \u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u30b3\u30f3\u30c6\u30b9\u30c8 2020": {
-        "name": "HHKB \u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u30b3\u30f3\u30c6\u30b9\u30c8 2020",
-        "date": {
-            "year": "2020",
-            "month": "10",
-            "day": "10",
-            "hour": "21",
-            "minute": "00",
-            "second": "00",
-            "gmt": "0900"
-        },
-        "dtime": {
-            "hour": "01",
-            "minute": "40"
-        },
-        "rated": " ~ 1999",
-        "url": "https://atcoder.jp/contests/hhkb2020",
-        "writer": [
-            "tozangezan"
-        ],
-        "problemnumber": [
-            "\u554f\u984c\u6570\uff1a",
-            "6"
-        ],
-        "point": "\u914d\u70b9\u306f 100-200-300-400-500-600 \u3067\u3059\u3002"
-    },
-    "AtCoder Regular Contest 105": {
-        "name": "AtCoder Regular Contest 105",
-        "date": {
-            "year": "2020",
-            "month": "10",
-            "day": "11",
-            "hour": "22",
-            "minute": "30",
-            "second": "00",
-            "gmt": "0900"
-        },
-        "dtime": {
-            "hour": "01",
-            "minute": "40"
-        },
-        "rated": " ~ 2799",
-        "url": "https://atcoder.jp/contests/arc105",
-        "writer": [
-            "camypaper"
-        ],
-        "problemnumber": [
-            "\u554f\u984c\u6570\uff1a",
-            "6"
-        ],
-        "point": "\u914d\u70b9\u306f 200-300-500-600-700-900 \u3067\u3059\u3002"
-    },
     "AtCoder Grand Contest 048": {
         "name": "AtCoder Grand Contest 048",
         "date": {
@@ -63,10 +11,10 @@
             "gmt": "0900"
         },
         "dtime": {
-            "hour": "01",
-            "minute": "50"
+            "hour": "02",
+            "minute": "30"
         },
-        "rated": "All",
+        "rated": "1200 ~ ",
         "url": "https://atcoder.jp/contests/agc048",
         "point": "null",
         "writer": [
