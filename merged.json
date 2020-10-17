@@ -50,5 +50,57 @@
             "\u554f\u984c\u6570\uff1a",
             "null"
         ]
+    },
+    "AtCoder Regular Contest 107": {
+        "name": "AtCoder Regular Contest 107",
+        "date": {
+            "year": "2020",
+            "month": "10",
+            "day": "31",
+            "hour": "21",
+            "minute": "00",
+            "second": "00",
+            "gmt": "0900"
+        },
+        "dtime": {
+            "hour": "01",
+            "minute": "40"
+        },
+        "rated": " ~ 2799",
+        "url": "https://atcoder.jp/contests/arc107",
+        "point": "null",
+        "writer": [
+            "null"
+        ],
+        "problemnumber": [
+            "\u554f\u984c\u6570\uff1a",
+            "null"
+        ]
+    },
+    "HACK TO THE FUTURE 2021 \u4e88\u9078": {
+        "name": "HACK TO THE FUTURE 2021 \u4e88\u9078",
+        "date": {
+            "year": "2020",
+            "month": "11",
+            "day": "07",
+            "hour": "14",
+            "minute": "00",
+            "second": "00",
+            "gmt": "0900"
+        },
+        "dtime": {
+            "hour": "08",
+            "minute": "00"
+        },
+        "rated": "-",
+        "url": "https://atcoder.jp/contests/future-contest-2021-qual",
+        "point": "null",
+        "writer": [
+            "null"
+        ],
+        "problemnumber": [
+            "\u554f\u984c\u6570\uff1a",
+            "null"
+        ]
     }
 }
