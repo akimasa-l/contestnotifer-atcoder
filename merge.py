@@ -50,7 +50,7 @@ def make_message(flag,message):
 問題数： {message["problemnumber"][1]}
 writer： {", ".join(message["writer"])}
 レーティング変化： {message["rated"]}
-{message["point"] if message["point"]!="null" else "配点わからん"}
+{message["point"] if message["point"]!="null" else "配点：わからん"}
 
 皆様、是非ご参加ください！"""
 
