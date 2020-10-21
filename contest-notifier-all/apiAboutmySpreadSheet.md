@@ -1,6 +1,6 @@
 # このドキュメントは何
 
-私が作った[AtCoder IDを入力すると自動で有効か無効か判断してくれるスプレッドシート][0]の公式API Referenceです。
+私が作った[AtCoder IDを入力すると自動で有効か無効か判断してくれるスプレッドシート][0]{:target="_blank"}の公式API Referenceです。
 
 # APIの使い方
 

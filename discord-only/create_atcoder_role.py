@@ -10,6 +10,7 @@ with open("./colors.ini") as f:
 with open("../../discord/accesstoken.txt") as f:
     token=f.read().rstrip()
 
+#print(config["colors"].items())
 client = discord.Client()
 
 
