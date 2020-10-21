@@ -2,6 +2,7 @@ import discord
 import requests
 import shlex
 import json
+import re
 
 with open("../../discord/accesstoken.txt") as f:
     token=f.read().rstrip()
@@ -51,12 +52,22 @@ def get_atcoder_role(atcoderId,guild,discordid):
     applyDB(discordid,atcoderId,rating)
     return (discord.utils.get(guild.roles,name=color+" coder"),color)#名前で探す
 
+async def delete_atcoder_role(member):
+    delete_roles=[]
+    for role in member.roles:
+        if re.fullmatch("(black|gray|brown|green|cyan|blue|yellow|orange|red|unknown) coder",role.name):
+            delete_roles.append(role)
+    await member.remove_roles(*delete_roles)
+
+async def sendmessage(channel,color,mention):
+    reply = f'{mention} は {color} coderになりました！！！'
+    await channel.send(reply)
+
 async def add_atcoder_role(atcoderId,message):
     ok=isExist(atcoderId)
     role,color=get_atcoder_role(atcoderId if ok else "",message.guild,message.author.id)
     await message.author.add_roles(role)
-    reply = f'{message.author.mention} は {color} coderになりました！！！'
-    await message.channel.send(reply)
+    await sendmessage(message.channel,color,message.author.mention)
 
 @client.event
 async def on_message(message):
@@ -67,6 +78,7 @@ async def on_message(message):
         return
     if a[0]=="!identify":
         atcoderId=a[1]
+        await delete_atcoder_role(message.author)
         await add_atcoder_role(atcoderId,message)
 
 client.run(token)
