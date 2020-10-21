@@ -41,6 +41,21 @@ def isExist(atcoderId):
         return True
     return False
 
+def get_atcoder_role(atcoderId,guild,discordid):
+    if atcoderId:
+        rating=getRating(atcoderId)
+        color=getcolor(rating)
+    else:#よくわからなかったら unknown coder
+        rating=0
+        color="unknown"
+    applyDB(discordid,atcoderId,rating)
+    return discord.utils.get(guild.roles,name=color+" coder")#名前で探す
+
+def add_atcoder_role(atcoderId,message):
+    ok=isExist(atcoderId)
+    role=get_atcoder_role(atcoderId if ok else "",message.guild,message.author.id)
+    message.author.add_roles(role)
+
 @client.event
 async def on_message(message):
     if message.author.bot:
@@ -49,8 +64,7 @@ async def on_message(message):
     if len(a)!=2:
         return
     if a[0]=="!identify":
-        ok=await isExist(a[1])
-        if ok:
-            pass
+        atcoderId=a[1]
+        add_atcoder_role(atcoderId,message)
 
 client.run(token)
