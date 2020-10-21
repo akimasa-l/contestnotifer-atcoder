@@ -49,12 +49,14 @@ def get_atcoder_role(atcoderId,guild,discordid):
         rating=0
         color="unknown"
     applyDB(discordid,atcoderId,rating)
-    return discord.utils.get(guild.roles,name=color+" coder")#名前で探す
+    return (discord.utils.get(guild.roles,name=color+" coder"),color)#名前で探す
 
-def add_atcoder_role(atcoderId,message):
+async def add_atcoder_role(atcoderId,message):
     ok=isExist(atcoderId)
-    role=get_atcoder_role(atcoderId if ok else "",message.guild,message.author.id)
-    message.author.add_roles(role)
+    role,color=get_atcoder_role(atcoderId if ok else "",message.guild,message.author.id)
+    await message.author.add_roles(role)
+    reply = f'{message.author.mention} は {color} coderになりました！！！'
+    await message.channel.send(reply)
 
 @client.event
 async def on_message(message):
@@ -65,6 +67,6 @@ async def on_message(message):
         return
     if a[0]=="!identify":
         atcoderId=a[1]
-        add_atcoder_role(atcoderId,message)
+        await add_atcoder_role(atcoderId,message)
 
 client.run(token)

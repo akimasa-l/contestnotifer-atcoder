@@ -14,10 +14,19 @@ colors={i:discord.Color(int(j,16)) for i,j in config["colors"].items()}
 with open("../../discord/accesstoken.txt") as f:
     token=f.read().rstrip()
 
-#print(config["colors"].items())
+print(*config["colors"].items())
 
 client = discord.Client()
-
-
+@client.event
+async def on_message(message):
+    if message.author.bot:
+        return
+    if "Akimasa_L" not in str(message.author):
+        return
+    if message.content!="!init":
+        return
+    reason="First making roles."
+    for i,j in colors.items():
+        await message.guild.create_role(name=i+" coder",reason=reason,color=j,mentionable=1,hoist=1)
 
 client.run(token)
