@@ -1,0 +1,56 @@
+[
+{
+    "name":"AtCoder Beginer Contest XXX",
+    "date":{
+        "year":"2020",
+        "month":"00",
+        "day":"00",
+        "hour":"00",
+        "minute":"00",
+        "second":"00",
+        "gmt":"0900"
+    },
+    "dtime":{
+        "hour":"01",
+        "minute":"40"
+    },
+    "rated":" ~ 1999",
+    "url":"https://atcoder.jp/contests/abcXXX"
+},
+{
+    "name":"AtCoder Regular Contest XXX",
+    "date":{
+        "year":"2020",
+        "month":"00",
+        "day":"00",
+        "hour":"00",
+        "minute":"00",
+        "second":"00",
+        "gmt":"0900"
+    },
+    "dtime":{
+        "hour":"02",
+        "minute":"20"
+    },
+    "rated":"1200 ~ ",
+    "url":"https://atcoder.jp/contests/arcXXX"
+},
+{
+    "name":"ACL Contest XXX",
+    "date":{
+        "year":"2020",
+        "month":"00",
+        "day":"00",
+        "hour":"00",
+        "minute":"00",
+        "second":"00",
+        "gmt":"0900"
+    },
+    "dtime":{
+        "hour":"01",
+        "minute":"40"
+    },
+    "rated":"1200 ~ 2799",
+    "url":"https://atcoder.jp/contests/acl2"
+}
+]
