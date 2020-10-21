@@ -10,7 +10,7 @@ Example:
 GET https://script.google.com/macros/s/AKfycbx7DEcey_KAI24uYy8ICdPhT-ZRSNrVjpSkqSdXrkNet04hi_4/exec
 ```
 
-Expected Responce:
+Example Responce:
 
 ```json:responce.json
 ["akimasa_l","tourist","chokudai","blacky555","yudai0418","sasanoha","orangecolor","2plus2equal57"]
