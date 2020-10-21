@@ -37,4 +37,4 @@ Example out:
 ["akimasa_l","tourist","chokudai","blacky555","yudai0418","sasanoha","orangecolor","2plus2equal57"]
 ```
 
-[0]:https://docs.google.com/spreadsheets/d/1qB4jgvLTkp_-7ggA0j4uZ4tC-dmwLwym_oPQXX2q6rQ/edit?usp=sharing{:target="_blank"}
+[0]:(https://docs.google.com/spreadsheets/d/1qB4jgvLTkp_-7ggA0j4uZ4tC-dmwLwym_oPQXX2q6rQ/edit?usp=sharing){:target="_blank"}
