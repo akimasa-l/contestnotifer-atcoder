@@ -1,6 +1,6 @@
 # このドキュメントは何
 
-私が作った[AtCoder IDを入力すると自動で有効か無効か判断してくれるスプレッドシート][0]{:target="_blank"}の公式API Referenceです。
+私が作った[AtCoder IDを入力すると自動で有効か無効か判断してくれるスプレッドシート][0]の公式API Referenceです。
 
 # APIの使い方
 
@@ -37,4 +37,4 @@ Example out:
 ["akimasa_l","tourist","chokudai","blacky555","yudai0418","sasanoha","orangecolor","2plus2equal57"]
 ```
 
-[0]:https://docs.google.com/spreadsheets/d/1qB4jgvLTkp_-7ggA0j4uZ4tC-dmwLwym_oPQXX2q6rQ/edit?usp=sharing
+[0]:https://docs.google.com/spreadsheets/d/1qB4jgvLTkp_-7ggA0j4uZ4tC-dmwLwym_oPQXX2q6rQ/edit?usp=sharing{:target="_blank"}
