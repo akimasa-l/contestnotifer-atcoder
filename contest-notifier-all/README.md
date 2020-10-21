@@ -1,6 +1,6 @@
 # contestnotifer-atcoder
 
-コンテストの情報を見つけてLINEに送信します。
+コンテストの情報を見つけてLINE,Discordに送信します。
 
 ## 仕組み
 
@@ -38,9 +38,9 @@
 
 1. merge.pyで上記のJson fileをContest Nameでまとめる。
 
-    - 近いコンテストや新しいコンテストがあったらmessageを用意してsendmessage.pyを動かす。
+    - 近いコンテストや新しいコンテストがあったらmessageを用意してsendmessage_*.pyを動かす。
 
-1. sendmessage.pyで送る。
+1. sendmessage_*.pyで送る。
 
 [1]:https://atcoder.jp/contests/
 
