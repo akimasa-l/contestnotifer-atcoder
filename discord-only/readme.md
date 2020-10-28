@@ -48,3 +48,4 @@ create_atcoder_role.pyの24行目の"Akimasa_L"を別のものに変えればそ
 # やり方
 
 Ratingは`https://atcoder.jp/users/{atcoderId}/history/json`の最後のものからとってきています。とれなかったらblack coderになります。
+そもそもアカウントが存在しない場合はunknown coderになります。
