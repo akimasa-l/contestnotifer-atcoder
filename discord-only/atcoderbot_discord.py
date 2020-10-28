@@ -52,12 +52,13 @@ def get_atcoder_role(atcoderId,guild,discordid):
     applyDB(discordid,atcoderId,rating)
     return (discord.utils.get(guild.roles,name=color+" coder"),color)#名前で探す
 
-async def delete_atcoder_role(member):
+async def delete_atcoder_roles(member):
     delete_roles=[]
+    compiled=re.compile("(black|gray|brown|green|cyan|blue|yellow|orange|red|unknown) coder")
     for role in member.roles:
-        if re.fullmatch("(black|gray|brown|green|cyan|blue|yellow|orange|red|unknown) coder",role.name):
+        if compiled.fullmatch(role.name):
             delete_roles.append(role)
-    await member.remove_roles(*delete_roles)
+    await member.remove_roles(*delete_roles)#unpackする
 
 async def sendmessage(channel,color,mention):
     reply = f'{mention} は {color} coderになりました！！！'
@@ -78,7 +79,7 @@ async def on_message(message):
         return
     if a[0]=="!identify":
         atcoderId=a[1]
-        await delete_atcoder_role(message.author)
+        await delete_atcoder_roles(message.author)
         await add_atcoder_role(atcoderId,message)
 
 client.run(token)

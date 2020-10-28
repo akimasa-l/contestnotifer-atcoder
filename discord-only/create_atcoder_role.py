@@ -21,7 +21,7 @@ client = discord.Client()
 async def on_message(message):
     if message.author.bot:
         return
-    if "Akimasa_L" not in str(message.author):
+    if "Akimasa_L" not in message.author.name:
         return
     if message.content!="!init":
         return
