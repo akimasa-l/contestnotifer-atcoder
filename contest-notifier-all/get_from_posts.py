@@ -21,7 +21,10 @@ def get_from_posts():
         writers=li[5][7:]
         #print(writers)
         ws=[writer.text for writer in BeautifulSoup(writers,"html.parser").find_all("span")]
-        point=re.search("配点は .* です。",info.text).group()#[4:-4]
+        try:
+            point=re.search("配点は .* です。",info.text).group()#[4:-4]
+        except AttributeError:
+            point="null"
         #print(cname,pronum,ws,point)
         c.append({"name":cname,"problemnumber":pronum,"writer":ws,"point":point})
     #print(c)
