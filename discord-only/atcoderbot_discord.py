@@ -14,7 +14,7 @@ with open("../../discord/dburl.txt") as f:
 
 client = discord.Client()
 
-ratingcolors={1:"black",400:"gray",800:"brown",1200:"green",1600:"cyan",2000:"blue",2400:"yellow",2800:"orange",3200:"red"}
+ratingcolors={1:"black",400:"gray",800:"brown",1200:"green",1600:"cyan",2000:"blue",2400:"yellow",2800:"orange",10000:"red"}
 
 def getcolor(rating):
     for i,j in ratingcolors.items():
