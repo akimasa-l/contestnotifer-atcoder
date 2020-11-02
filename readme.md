@@ -2,7 +2,7 @@
 
 Contest Notifierというbot (line, discord) のgithubです。詳しくはそれぞれのフォルダーのreadmeを読んでみてください。
 
-#ディレクトリ構成
+# ディレクトリ構成
 
 ```
 C:.
