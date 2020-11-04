@@ -3,6 +3,7 @@ import json
 import datetime
 import time
 import subprocess
+import glob
 
 #なんかいろいろやる
 JST = datetime.timezone(datetime.timedelta(hours=+9), 'JST')
@@ -68,6 +69,14 @@ def get_near(now):#want original
         if cdate-nowdate<datetime.timedelta(hours=1,minutes=30):
             messages.append(make_message(0,i))
 
+def search_sendmessage_py():
+    path="./sendmessage_*.py"
+    return glob.iglob(path)
+
+def run_sendmessage_py(paths):
+    for path in paths:
+        subprocess.run("python3 "+path)
+
 def main():
     with open("./merged.json") as f:
         past=json.load(f)
@@ -84,7 +93,8 @@ def main():
         print(f"New {len(messages)} messages are found.")
         with open("./messages.json",mode="w") as f:
             f.write(json.dumps(messages,indent=4))
-        subprocess.run("python3 ./sendmessage.py")
+        run_sendmessage_py(search_sendmessage_py())
     else:
         print("No new messages.")
+
 main()
