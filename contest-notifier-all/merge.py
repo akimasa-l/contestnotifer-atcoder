@@ -75,7 +75,7 @@ def search_sendmessage_py():
 
 def run_sendmessage_py(paths):
     for path in paths:
-        subprocess.run("python3 "+path)
+        subprocess.run("python3 "+path,shell=True)
 
 def main():
     with open("./merged.json") as f:

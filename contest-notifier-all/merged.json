@@ -1,34 +1,4 @@
 {
-    "AtCoder Beginner Contest 181": {
-        "name": "AtCoder Beginner Contest 181",
-        "date": {
-            "year": "2020",
-            "month": "11",
-            "day": "01",
-            "hour": "21",
-            "minute": "00",
-            "second": "00",
-            "gmt": "0900"
-        },
-        "dtime": {
-            "hour": "01",
-            "minute": "40"
-        },
-        "rated": " ~ 1999",
-        "url": "https://atcoder.jp/contests/abc181",
-        "writer": [
-            "evima",
-            "tatyam",
-            "tempura0224",
-            "tozangezan",
-            "ynymxiaolongbao"
-        ],
-        "problemnumber": [
-            "\u554f\u984c\u6570\uff1a",
-            "6"
-        ],
-        "point": "\u914d\u70b9\u306f 100-200-300-400-500-600 \u3067\u3059\u3002"
-    },
     "HACK TO THE FUTURE 2021 \u4e88\u9078": {
         "name": "HACK TO THE FUTURE 2021 \u4e88\u9078",
         "date": {
@@ -55,6 +25,32 @@
             "null"
         ]
     },
+    "AtCoder Beginner Contest 182": {
+        "name": "AtCoder Beginner Contest 182",
+        "date": {
+            "year": "2020",
+            "month": "11",
+            "day": "08",
+            "hour": "21",
+            "minute": "00",
+            "second": "00",
+            "gmt": "0900"
+        },
+        "dtime": {
+            "hour": "01",
+            "minute": "40"
+        },
+        "rated": " ~ 1999",
+        "url": "https://atcoder.jp/contests/abc182",
+        "point": "null",
+        "writer": [
+            "null"
+        ],
+        "problemnumber": [
+            "\u554f\u984c\u6570\uff1a",
+            "null"
+        ]
+    },
     "AtCoder Grand Contest 049": {
         "name": "AtCoder Grand Contest 049",
         "date": {
@@ -72,6 +68,32 @@
         },
         "rated": "1200 ~ ",
         "url": "https://atcoder.jp/contests/agc049",
+        "point": "null",
+        "writer": [
+            "null"
+        ],
+        "problemnumber": [
+            "\u554f\u984c\u6570\uff1a",
+            "null"
+        ]
+    },
+    "AtCoder Beginner Contest 183": {
+        "name": "AtCoder Beginner Contest 183",
+        "date": {
+            "year": "2020",
+            "month": "11",
+            "day": "15",
+            "hour": "21",
+            "minute": "00",
+            "second": "00",
+            "gmt": "0900"
+        },
+        "dtime": {
+            "hour": "01",
+            "minute": "40"
+        },
+        "rated": " ~ 1999",
+        "url": "https://atcoder.jp/contests/abc183",
         "point": "null",
         "writer": [
             "null"
@@ -124,6 +146,32 @@
         },
         "rated": " ~ 2799",
         "url": "https://atcoder.jp/contests/arc109",
+        "point": "null",
+        "writer": [
+            "null"
+        ],
+        "problemnumber": [
+            "\u554f\u984c\u6570\uff1a",
+            "null"
+        ]
+    },
+    "Hitachi Hokudai Lab. & Hokkaido University Contest 2020": {
+        "name": "Hitachi Hokudai Lab. & Hokkaido University Contest 2020",
+        "date": {
+            "year": "2020",
+            "month": "12",
+            "day": "01",
+            "hour": "00",
+            "minute": "00",
+            "second": "00",
+            "gmt": "0900"
+        },
+        "dtime": {
+            "hour": "743",
+            "minute": "59"
+        },
+        "rated": "-",
+        "url": "https://atcoder.jp/contests/hokudai-hitachi2020",
         "point": "null",
         "writer": [
             "null"
