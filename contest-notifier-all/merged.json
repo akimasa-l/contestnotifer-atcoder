@@ -1,30 +1,4 @@
 {
-    "HACK TO THE FUTURE 2021 \u4e88\u9078": {
-        "name": "HACK TO THE FUTURE 2021 \u4e88\u9078",
-        "date": {
-            "year": "2020",
-            "month": "11",
-            "day": "07",
-            "hour": "14",
-            "minute": "00",
-            "second": "00",
-            "gmt": "0900"
-        },
-        "dtime": {
-            "hour": "08",
-            "minute": "00"
-        },
-        "rated": "-",
-        "url": "https://atcoder.jp/contests/future-contest-2021-qual",
-        "point": "null",
-        "writer": [
-            "null"
-        ],
-        "problemnumber": [
-            "\u554f\u984c\u6570\uff1a",
-            "null"
-        ]
-    },
     "AtCoder Beginner Contest 182": {
         "name": "AtCoder Beginner Contest 182",
         "date": {
@@ -42,14 +16,18 @@
         },
         "rated": " ~ 1999",
         "url": "https://atcoder.jp/contests/abc182",
-        "point": "null",
         "writer": [
-            "null"
+            "evima",
+            "June_boy",
+            "kyopro_friends",
+            "QCFium",
+            "yuma000"
         ],
         "problemnumber": [
             "\u554f\u984c\u6570\uff1a",
-            "null"
-        ]
+            "6"
+        ],
+        "point": "\u914d\u70b9\u306f 100-200-300-400-500-600 \u3067\u3059\u3002"
     },
     "AtCoder Grand Contest 049": {
         "name": "AtCoder Grand Contest 049",
