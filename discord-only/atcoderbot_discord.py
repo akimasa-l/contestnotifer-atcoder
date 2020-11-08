@@ -3,6 +3,7 @@ import requests
 import shlex
 import json
 import re
+import aiohttp
 
 with open("../../discord/accesstoken.txt") as f:
     token=f.read().rstrip()
@@ -26,25 +27,26 @@ def applyDB(discordid,atcoderid,rating):
     a=requests.post(DBurl,params=params)
     return json.dumps(a.text)
 
-def getRating(atcoderId)->int:
+async def getRating(atcoderId)->int:
     url=f"https://atcoder.jp/users/{atcoderId}/history/json"
-    a=requests.get(url)
-    j=json.loads(a.text)
+    async with aiohttp.ClientSession() as session:
+        async with session.get(url) as r:
+            j=json.loads(await r.text())
     if j:
         return j[-1]["NewRating"]
     return 0
 
 
-def isExist(atcoderId):
+async def isExist(atcoderId):
     url=f"https://atcoder.jp/users/{atcoderId}/"
     a=requests.get(url)
     if a.status_code==200:
         return True
     return False
 
-def get_atcoder_role(atcoderId,guild,discordid):
+async def get_atcoder_role(atcoderId,guild,discordid):
     if atcoderId:
-        rating=getRating(atcoderId)
+        rating=await getRating(atcoderId)
         color=getcolor(rating)
     else:#よくわからなかったら unknown coder
         rating=0
@@ -65,8 +67,8 @@ async def sendmessage(channel,color,mention):
     await channel.send(reply)
 
 async def add_atcoder_role(atcoderId,message):
-    ok=isExist(atcoderId)
-    role,color=get_atcoder_role(atcoderId if ok else "",message.guild,message.author.id)
+    ok=await isExist(atcoderId)
+    role,color=await get_atcoder_role(atcoderId if ok else "",message.guild,message.author.id)
     await message.author.add_roles(role)
     await sendmessage(message.channel,color,message.author.mention)
 
