@@ -1,5 +1,4 @@
 import discord
-import requests
 import shlex
 import json
 import re
@@ -83,9 +82,9 @@ async def add_atcoder_role(atcoderId,channel,user):
     await user.author.add_roles(role)
     await sendmessage(channel,color,user.mention)
 
-async def get_user_for_discord_id(discordId,members):
-    #https://discordpy.readthedocs.io/ja/latest/api.html?highlight=find#discord.utils.find
-    return discord.utils.find(lambda m:str(m.id)==str(discordId),members)
+async def get_user_for_discord_id(discordId)->discord.user:
+    #https://discordpy.readthedocs.io/ja/latest/api.html?highlight=get_user#discord.Client.get_user
+    return client.get_user(discordId)
 
 async def update_user_role(atcoderId,channel,user):
     await delete_atcoder_roles(user)
@@ -94,7 +93,12 @@ async def update_user_role(atcoderId,channel,user):
 async def update_users_role(channel):
     j=get_discord_id_dict_by_DB()
     for discordId in j.keys():
-        user=await get_user_for_discord_id(discordId,channel.guild.members)
+        atcoderId=j[discordId]["atcoderId"]
+        oldRating=j[discordId]["Rating"]
+        newRating=getRating(atcoderId)
+        if getcolor(oldRating)==getcolor(newRating):
+            continue
+        user=await get_user_for_discord_id(discordId)
         await update_user_role(j[discordId]["atcoderId"],channel,user)
 
 @client.event
