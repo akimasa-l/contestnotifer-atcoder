@@ -1,34 +1,4 @@
 {
-    "AtCoder Beginner Contest 182": {
-        "name": "AtCoder Beginner Contest 182",
-        "date": {
-            "year": "2020",
-            "month": "11",
-            "day": "08",
-            "hour": "21",
-            "minute": "00",
-            "second": "00",
-            "gmt": "0900"
-        },
-        "dtime": {
-            "hour": "01",
-            "minute": "40"
-        },
-        "rated": " ~ 1999",
-        "url": "https://atcoder.jp/contests/abc182",
-        "writer": [
-            "evima",
-            "June_boy",
-            "kyopro_friends",
-            "QCFium",
-            "yuma000"
-        ],
-        "problemnumber": [
-            "\u554f\u984c\u6570\uff1a",
-            "6"
-        ],
-        "point": "\u914d\u70b9\u306f 100-200-300-400-500-600 \u3067\u3059\u3002"
-    },
     "AtCoder Grand Contest 049": {
         "name": "AtCoder Grand Contest 049",
         "date": {
@@ -41,19 +11,20 @@
             "gmt": "0900"
         },
         "dtime": {
-            "hour": "02",
-            "minute": "30"
+            "hour": "03",
+            "minute": "20"
         },
         "rated": "1200 ~ ",
         "url": "https://atcoder.jp/contests/agc049",
-        "point": "null",
         "writer": [
-            "null"
+            "maroonrk",
+            "yosupo"
         ],
         "problemnumber": [
             "\u554f\u984c\u6570\uff1a",
-            "null"
-        ]
+            "6"
+        ],
+        "point": "\u914d\u70b9\u306f 400 - 600 - 800 - 1000 - 1600 - 2400 \u3067\u3059\u3002"
     },
     "AtCoder Beginner Contest 183": {
         "name": "AtCoder Beginner Contest 183",

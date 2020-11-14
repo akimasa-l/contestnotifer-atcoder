@@ -1,23 +1,5 @@
 [
     {
-        "name": "AtCoder Beginner Contest 182",
-        "date": {
-            "year": "2020",
-            "month": "11",
-            "day": "08",
-            "hour": "21",
-            "minute": "00",
-            "second": "00",
-            "gmt": "0900"
-        },
-        "dtime": {
-            "hour": "01",
-            "minute": "40"
-        },
-        "rated": " ~ 1999",
-        "url": "https://atcoder.jp/contests/abc182"
-    },
-    {
         "name": "AtCoder Grand Contest 049",
         "date": {
             "year": "2020",
@@ -29,8 +11,8 @@
             "gmt": "0900"
         },
         "dtime": {
-            "hour": "02",
-            "minute": "30"
+            "hour": "03",
+            "minute": "20"
         },
         "rated": "1200 ~ ",
         "url": "https://atcoder.jp/contests/agc049"
