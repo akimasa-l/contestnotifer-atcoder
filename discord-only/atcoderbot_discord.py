@@ -105,10 +105,13 @@ async def on_message(message):
     if len(a)!=2:
         return
     atcoderId=a[1]
+    channel=message.channel
     if a[0]=="!identify":
-        await update_user_role(atcoderId,message.channel,message.author)
+        await update_user_role(atcoderId,channel,message.author)
     if a[0]=="!update":
-        await update_users_role(message.channel)
+        await update_users_role(channel)
+    if a[0]=="!channelID":
+        await channel.send(str(channel.id))
 
 @client.event
 async def on_ready():
