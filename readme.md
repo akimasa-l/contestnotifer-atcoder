@@ -26,6 +26,7 @@ C:.
 ├─discord
 │      accesstoken.txt
 │      dburl.txt
+│      channelid.txt
 │      to.txt
 │
 └─line
