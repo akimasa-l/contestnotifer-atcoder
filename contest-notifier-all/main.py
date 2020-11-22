@@ -6,6 +6,6 @@ files=(
     "./merge.py"
 )
 for file in files:
-    subprocess.run("python3 " +file,shell=True)
+    subprocess.run("python " +file,shell=True)
     #os.system("python3 " +file)
     print("Done")
