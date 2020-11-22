@@ -1,5 +1,9 @@
 [
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d739e58e80ac7475a98835d0ad7679554fca2a4b
         "name": "AtCoder Beginner Contest 184",
         "date": {
             "year": "2020",
@@ -19,6 +23,12 @@
     },
     {
         "name": "AtCoder Regular Contest 109",
+<<<<<<< HEAD
+=======
+=======
+        "name": "AtCoder Grand Contest 049",
+>>>>>>> ce2160186144c79f8c6796cae04f97db7013e944
+>>>>>>> d739e58e80ac7475a98835d0ad7679554fca2a4b
         "date": {
             "year": "2020",
             "month": "11",
@@ -29,8 +39,13 @@
             "gmt": "0900"
         },
         "dtime": {
+<<<<<<< HEAD
             "hour": "01",
             "minute": "40"
+=======
+            "hour": "03",
+            "minute": "20"
+>>>>>>> ce2160186144c79f8c6796cae04f97db7013e944
         },
         "rated": " ~ 2799",
         "url": "https://atcoder.jp/contests/arc109"

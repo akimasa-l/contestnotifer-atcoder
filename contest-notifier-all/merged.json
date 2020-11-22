@@ -1,4 +1,13 @@
 {
+<<<<<<< HEAD
+    "AtCoder Beginner Contest 184": {
+        "name": "AtCoder Beginner Contest 184",
+        "date": {
+            "year": "2020",
+            "month": "11",
+            "day": "22",
+=======
+<<<<<<< HEAD
     "AtCoder Beginner Contest 184": {
         "name": "AtCoder Beginner Contest 184",
         "date": {
@@ -16,6 +25,54 @@
         },
         "rated": " ~ 1999",
         "url": "https://atcoder.jp/contests/abc184",
+        "point": "null",
+        "writer": [
+            "null"
+        ],
+        "problemnumber": [
+            "\u554f\u984c\u6570\uff1a",
+            "null"
+        ]
+    },
+    "AtCoder Regular Contest 109": {
+        "name": "AtCoder Regular Contest 109",
+=======
+    "AtCoder Grand Contest 049": {
+        "name": "AtCoder Grand Contest 049",
+>>>>>>> ce2160186144c79f8c6796cae04f97db7013e944
+        "date": {
+            "year": "2020",
+            "month": "11",
+            "day": "28",
+>>>>>>> d739e58e80ac7475a98835d0ad7679554fca2a4b
+            "hour": "21",
+            "minute": "00",
+            "second": "00",
+            "gmt": "0900"
+        },
+        "dtime": {
+<<<<<<< HEAD
+            "hour": "01",
+            "minute": "40"
+        },
+        "rated": " ~ 1999",
+        "url": "https://atcoder.jp/contests/abc184",
+=======
+<<<<<<< HEAD
+            "hour": "01",
+            "minute": "40"
+        },
+        "rated": " ~ 2799",
+        "url": "https://atcoder.jp/contests/arc109",
+        "point": "null",
+=======
+            "hour": "03",
+            "minute": "20"
+        },
+        "rated": "1200 ~ ",
+        "url": "https://atcoder.jp/contests/agc049",
+>>>>>>> ce2160186144c79f8c6796cae04f97db7013e944
+>>>>>>> d739e58e80ac7475a98835d0ad7679554fca2a4b
         "writer": [
             "beet",
             "evima",
@@ -29,6 +86,7 @@
         ],
         "point": "\u914d\u70b9\u306f 100-200-300-400-500-600 \u3067\u3059\u3002"
     },
+<<<<<<< HEAD
     "AtCoder Regular Contest 109": {
         "name": "AtCoder Regular Contest 109",
         "date": {
@@ -36,16 +94,30 @@
             "month": "11",
             "day": "28",
             "hour": "21",
+=======
+    "Hitachi Hokudai Lab. & Hokkaido University Contest 2020": {
+        "name": "Hitachi Hokudai Lab. & Hokkaido University Contest 2020",
+        "date": {
+            "year": "2020",
+            "month": "12",
+            "day": "01",
+            "hour": "00",
+>>>>>>> d739e58e80ac7475a98835d0ad7679554fca2a4b
             "minute": "00",
             "second": "00",
             "gmt": "0900"
         },
         "dtime": {
-            "hour": "01",
-            "minute": "40"
+            "hour": "743",
+            "minute": "59"
         },
+<<<<<<< HEAD
         "rated": " ~ 2799",
         "url": "https://atcoder.jp/contests/arc109",
+=======
+        "rated": "-",
+        "url": "https://atcoder.jp/contests/hokudai-hitachi2020",
+>>>>>>> d739e58e80ac7475a98835d0ad7679554fca2a4b
         "point": "null",
         "writer": [
             "null"
@@ -55,6 +127,7 @@
             "null"
         ]
     },
+<<<<<<< HEAD
     "Hitachi Hokudai Lab. & Hokkaido University Contest 2020": {
         "name": "Hitachi Hokudai Lab. & Hokkaido University Contest 2020",
         "date": {
@@ -86,6 +159,13 @@
         "date": {
             "year": "2020",
             "month": "12",
+=======
+    "\u9e7f\u5cf6\u5efa\u8a2d\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u30b3\u30f3\u30c6\u30b9\u30c82020\uff08AtCoder Regular Contest 110\uff09": {
+        "name": "\u9e7f\u5cf6\u5efa\u8a2d\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u30b3\u30f3\u30c6\u30b9\u30c82020\uff08AtCoder Regular Contest 110\uff09",
+        "date": {
+            "year": "2020",
+            "month": "12",
+>>>>>>> d739e58e80ac7475a98835d0ad7679554fca2a4b
             "day": "05",
             "hour": "21",
             "minute": "00",
