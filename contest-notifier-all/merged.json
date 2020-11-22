@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "AtCoder Beginner Contest 184": {
         "name": "AtCoder Beginner Contest 184",
         "date": {
@@ -27,6 +28,10 @@
     },
     "AtCoder Regular Contest 109": {
         "name": "AtCoder Regular Contest 109",
+=======
+    "AtCoder Grand Contest 049": {
+        "name": "AtCoder Grand Contest 049",
+>>>>>>> ce2160186144c79f8c6796cae04f97db7013e944
         "date": {
             "year": "2020",
             "month": "11",
@@ -37,19 +42,29 @@
             "gmt": "0900"
         },
         "dtime": {
+<<<<<<< HEAD
             "hour": "01",
             "minute": "40"
         },
         "rated": " ~ 2799",
         "url": "https://atcoder.jp/contests/arc109",
         "point": "null",
+=======
+            "hour": "03",
+            "minute": "20"
+        },
+        "rated": "1200 ~ ",
+        "url": "https://atcoder.jp/contests/agc049",
+>>>>>>> ce2160186144c79f8c6796cae04f97db7013e944
         "writer": [
-            "null"
+            "maroonrk",
+            "yosupo"
         ],
         "problemnumber": [
             "\u554f\u984c\u6570\uff1a",
-            "null"
-        ]
+            "6"
+        ],
+        "point": "\u914d\u70b9\u306f 400 - 600 - 800 - 1000 - 1600 - 2400 \u3067\u3059\u3002"
     },
     "Hitachi Hokudai Lab. & Hokkaido University Contest 2020": {
         "name": "Hitachi Hokudai Lab. & Hokkaido University Contest 2020",
