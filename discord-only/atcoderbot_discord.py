@@ -25,7 +25,7 @@ async def getcolor(rating)->str:
 async def applyDB(discordid,atcoderid,rating):
     params={"discordid":discordid,"atcoderid":atcoderid,"rating":rating}
     async with aiohttp.ClientSession() as session:
-        async with session.post(DBurl,params) as r:
+        async with session.post(DBurl,params=params) as r:
             j=json.loads(await r.text())
     #a=requests.post(DBurl,params=params)
     return j
@@ -42,6 +42,7 @@ async def getRating(atcoderId)->int:
 async def get_discord_id_dict_by_DB()->dict:
     async with aiohttp.ClientSession() as session:
         async with session.get(DBurl) as r:
+            print(await r.text())
             j=json.loads(await r.text())
     return j
 
@@ -79,26 +80,34 @@ async def sendmessage(channel,color,mention):
 async def add_atcoder_role(atcoderId,channel,user):
     ok=await isExist(atcoderId)
     role,color=await get_atcoder_role(atcoderId if ok else "",channel.guild,user.id)
-    await user.author.add_roles(role)
+    await user.add_roles(role)
     await sendmessage(channel,color,user.mention)
 
-async def get_user_for_discord_id(discordId)->discord.user:
+async def get_user_for_discord_id(discordId,channel)->discord.user:
     #https://discordpy.readthedocs.io/ja/latest/api.html?highlight=get_user#discord.Client.get_user
+    #discordId=str(discordId)
     return client.get_user(discordId)
+    #別の方法↓
+    """
+    print(discordId)
+    r=discord.utils.find(lambda m:m.id==discordId,channel.members)
+    print(r,type(r))
+    return r
+    """
 
 async def update_user_role(atcoderId,channel,user):
     await delete_atcoder_roles(user)
-    await add_atcoder_role(atcoderId,channel)
+    await add_atcoder_role(atcoderId,channel,user)
 
 async def update_users_role(channel):
-    j=get_discord_id_dict_by_DB()
+    j=await get_discord_id_dict_by_DB()
     for discordId in j.keys():
         atcoderId=j[discordId]["atcoderId"]
-        oldRating=j[discordId]["Rating"]
-        newRating=getRating(atcoderId)
-        if getcolor(oldRating)==getcolor(newRating):
+        oldRating=int(j[discordId]["rating"])
+        newRating=await getRating(atcoderId)
+        if await getcolor(oldRating)==await getcolor(newRating):
             continue
-        user=await get_user_for_discord_id(discordId)
+        user=await get_user_for_discord_id(int(discordId),channel)
         await update_user_role(j[discordId]["atcoderId"],channel,user)
 
 @client.event
@@ -106,16 +115,17 @@ async def on_message(message):
     if message.author.bot:
         return
     a=shlex.split(message.content)
-    if len(a)!=2:
-        return
-    atcoderId=a[1]
     channel=message.channel
-    if a[0]=="!identify":
-        await update_user_role(atcoderId,channel,message.author)
     if a[0]=="!update":
         await update_users_role(channel)
     if a[0]=="!channelID":
         await channel.send(str(channel.id))
+    if len(a)!=2:
+        return
+    atcoderId=a[1]
+    if a[0]=="!identify":
+        await update_user_role(atcoderId,channel,message.author)
+    
 
 @client.event
 async def on_ready():
