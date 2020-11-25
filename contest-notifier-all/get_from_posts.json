@@ -1,6 +1,20 @@
 [
     {
-<<<<<<< HEAD
+        "name": "AtCoder Beginner Contest 184",
+        "problemnumber": [
+            "\u554f\u984c\u6570\uff1a",
+            "6"
+        ],
+        "writer": [
+            "beet",
+            "evima",
+            "kyopro_friends",
+            "tatyam",
+            "sheyasutaka"
+        ],
+        "point": "\u914d\u70b9\u306f 100-200-300-400-500-600 \u3067\u3059\u3002"
+    },
+    {
         "name": "AtCoder Regular Contest 108",
         "problemnumber": [
             "\u554f\u984c\u6570\uff1a",
@@ -26,8 +40,6 @@
         "point": "\u914d\u70b9\u306f 100-200-300-400-500-600 \u3067\u3059\u3002"
     },
     {
-=======
->>>>>>> ce2160186144c79f8c6796cae04f97db7013e944
         "name": "AtCoder Grand Contest 049",
         "problemnumber": [
             "\u554f\u984c\u6570\uff1a",
@@ -118,18 +130,5 @@
             "sugim48"
         ],
         "point": "null"
-    },
-    {
-        "name": "AtCoder Beginner Contest 180",
-        "problemnumber": [
-            "\u554f\u984c\u6570\uff1a",
-            "6"
-        ],
-        "writer": [
-            "kyopro_friends",
-            "sheyasutaka",
-            "ynymxiaolongbao"
-        ],
-        "point": "\u914d\u70b9\u306f 100-200-300-400-500-600 \u3067\u3059\u3002"
     }
 ]
