@@ -1,9 +1,5 @@
 [
     {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 1a67874c981ad137adb946dd03a572ab813a1315
         "name": "AtCoder Beginner Contest 184",
         "problemnumber": [
             "\u554f\u984c\u6570\uff1a",
@@ -19,12 +15,6 @@
         "point": "\u914d\u70b9\u306f 100-200-300-400-500-600 \u3067\u3059\u3002"
     },
     {
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> d739e58e80ac7475a98835d0ad7679554fca2a4b
->>>>>>> 1a67874c981ad137adb946dd03a572ab813a1315
         "name": "AtCoder Regular Contest 108",
         "problemnumber": [
             "\u554f\u984c\u6570\uff1a",
@@ -50,14 +40,6 @@
         "point": "\u914d\u70b9\u306f 100-200-300-400-500-600 \u3067\u3059\u3002"
     },
     {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ce2160186144c79f8c6796cae04f97db7013e944
->>>>>>> d739e58e80ac7475a98835d0ad7679554fca2a4b
->>>>>>> 1a67874c981ad137adb946dd03a572ab813a1315
         "name": "AtCoder Grand Contest 049",
         "problemnumber": [
             "\u554f\u984c\u6570\uff1a",
@@ -148,24 +130,5 @@
             "sugim48"
         ],
         "point": "null"
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-    },
-    {
-        "name": "AtCoder Beginner Contest 180",
-        "problemnumber": [
-            "\u554f\u984c\u6570\uff1a",
-            "6"
-        ],
-        "writer": [
-            "kyopro_friends",
-            "sheyasutaka",
-            "ynymxiaolongbao"
-        ],
-        "point": "\u914d\u70b9\u306f 100-200-300-400-500-600 \u3067\u3059\u3002"
->>>>>>> d739e58e80ac7475a98835d0ad7679554fca2a4b
->>>>>>> 1a67874c981ad137adb946dd03a572ab813a1315
     }
 ]
