@@ -12,8 +12,18 @@ C:.
 │  ├─contest-notifier-all
 │  │      after_contest.py
 │  │      apiAboutmySpreadSheet.md
-│  │      ................
+│  │      example.json
+│  │      find_contest.json
+│  │      find_contest.py
+│  │      get_from_posts.json
+│  │      get_from_posts.py
+│  │      main.py
+│  │      merge.py
+│  │      merged.json
+│  │      messages.json
+│  │      README.md
 │  │      sendmessage_discord.py
+│  │      sendmessage_google_chat.py
 │  │      sendmessage_line.py
 │  │
 │  └─discord-only
@@ -25,13 +35,17 @@ C:.
 │
 ├─discord
 │      accesstoken.txt
-│      dburl.txt
 │      channelid.txt
+│      dburl.txt
+│      to.txt
+│
+├─google_chat
 │      to.txt
 │
 └─line
         accesstoken.txt
         to.txt
+
 ```
 
 このようにディレクトリ/ファイルを配置すると正常に動きます。
