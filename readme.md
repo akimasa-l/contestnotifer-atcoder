@@ -35,3 +35,10 @@ C:.
 ```
 
 このようにディレクトリ/ファイルを配置すると正常に動きます。
+
+# 必要モジュール
+- Python 3
+    必要モジュール：
+    - requests
+    - beautifulsoup4
+    - discord.py
