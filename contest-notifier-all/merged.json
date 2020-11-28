@@ -1,30 +1,4 @@
 {
-    "AtCoder Regular Contest 109": {
-        "name": "AtCoder Regular Contest 109",
-        "date": {
-            "year": "2020",
-            "month": "11",
-            "day": "28",
-            "hour": "21",
-            "minute": "00",
-            "second": "00",
-            "gmt": "0900"
-        },
-        "dtime": {
-            "hour": "01",
-            "minute": "40"
-        },
-        "rated": " ~ 2799",
-        "url": "https://atcoder.jp/contests/arc109",
-        "point": "null",
-        "writer": [
-            "null"
-        ],
-        "problemnumber": [
-            "\u554f\u984c\u6570\uff1a",
-            "null"
-        ]
-    },
     "\u9e7f\u5cf6\u5efa\u8a2d\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u30b3\u30f3\u30c6\u30b9\u30c82020\uff08AtCoder Regular Contest 110\uff09": {
         "name": "\u9e7f\u5cf6\u5efa\u8a2d\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u30b3\u30f3\u30c6\u30b9\u30c82020\uff08AtCoder Regular Contest 110\uff09",
         "date": {
@@ -68,6 +42,32 @@
         },
         "rated": "-",
         "url": "https://atcoder.jp/contests/hokudai-hitachi2020",
+        "point": "null",
+        "writer": [
+            "null"
+        ],
+        "problemnumber": [
+            "\u554f\u984c\u6570\uff1a",
+            "null"
+        ]
+    },
+    "\u30d1\u30ca\u30bd\u30cb\u30c3\u30af\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u30b3\u30f3\u30c6\u30b9\u30c8\uff08AtCoder Beginner Contest 186\uff09": {
+        "name": "\u30d1\u30ca\u30bd\u30cb\u30c3\u30af\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u30b3\u30f3\u30c6\u30b9\u30c8\uff08AtCoder Beginner Contest 186\uff09",
+        "date": {
+            "year": "2020",
+            "month": "12",
+            "day": "19",
+            "hour": "21",
+            "minute": "00",
+            "second": "00",
+            "gmt": "0900"
+        },
+        "dtime": {
+            "hour": "01",
+            "minute": "40"
+        },
+        "rated": " ~ 1999",
+        "url": "https://atcoder.jp/contests/abc186",
         "point": "null",
         "writer": [
             "null"
