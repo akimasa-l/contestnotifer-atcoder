@@ -7,7 +7,7 @@ files=(
     "./merge.py"
 )
 commit=lambda:subprocess.run(['git', 'commit', '-am', r'"Updated on Raspberry pi"'])
-git_control=lambda c:subprocess.run(f"git {c} origin master".split())
+git_control=lambda c:subprocess.run(['git', c, 'origin', 'master'])
 pull=lambda:git_control("pull")
 push=lambda:git_control("push")
 
