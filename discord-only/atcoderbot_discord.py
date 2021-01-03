@@ -130,6 +130,7 @@ async def on_message(message):
 @client.event
 async def on_ready():
     channel=client.get_channel(channelid)
-    await update_users_role(channel)
+    print(channel.members)
+    #await update_users_role(channel)
 
 client.run(token)
