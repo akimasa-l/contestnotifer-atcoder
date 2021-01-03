@@ -131,7 +131,7 @@ async def on_message(message):
 async def on_ready():
     channel=client.get_channel(channelid)
     print(channel.members)
-    from . import kill_atcoderbot_discord
+    import kill_atcoderbot_discord
     kill_atcoderbot_discord.main()
     #await update_users_role(channel)
 
