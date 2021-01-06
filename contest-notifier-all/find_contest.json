@@ -1,23 +1,5 @@
 [
     {
-        "name": "\u30d1\u7814\u5408\u5bbf2020\u3000\u7b2c1\u65e5\u300cSpeedRun\u300d",
-        "date": {
-            "year": "2021",
-            "month": "01",
-            "day": "06",
-            "hour": "10",
-            "minute": "30",
-            "second": "00",
-            "gmt": "0900"
-        },
-        "dtime": {
-            "hour": "02",
-            "minute": "00"
-        },
-        "rated": "-",
-        "url": "https://atcoder.jp/contests/pakencamp-2020-day1"
-    },
-    {
         "name": "\u30d1\u7814\u5408\u5bbf2020\u3000\u7b2c2\u65e5\u300c\u30d1\u7814\u676f2020\u300d",
         "date": {
             "year": "2021",
