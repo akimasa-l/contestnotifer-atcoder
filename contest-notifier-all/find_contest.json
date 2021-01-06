@@ -36,6 +36,24 @@
         "url": "https://atcoder.jp/contests/arc111"
     },
     {
+        "name": "AtCoder Beginner Contest 188",
+        "date": {
+            "year": "2021",
+            "month": "01",
+            "day": "10",
+            "hour": "21",
+            "minute": "00",
+            "second": "00",
+            "gmt": "0900"
+        },
+        "dtime": {
+            "hour": "01",
+            "minute": "40"
+        },
+        "rated": " ~ 1999",
+        "url": "https://atcoder.jp/contests/abc188"
+    },
+    {
         "name": "\u30ad\u30fc\u30a8\u30f3\u30b9 \u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0 \u30b3\u30f3\u30c6\u30b9\u30c8 2021",
         "date": {
             "year": "2021",
