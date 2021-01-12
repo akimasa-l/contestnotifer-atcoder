@@ -22,8 +22,14 @@ def sendmessage(to,contest):
     print(h.text)
 
 def gettoto():
+    """
     with open("../../line/to.txt") as f:
         toto=f.read().split()
+    """
+    with open("../../line/dburl.txt") as f:
+        dburl=f.read().rstrip()
+    a=requests.get(dburl)
+    toto=json.loads(a.text)
     return toto
 
 for contest in contests:
