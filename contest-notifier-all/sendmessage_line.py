@@ -21,9 +21,11 @@ def sendmessage(to,contest):
     h=requests.post(url,headers=headers,data=json.dumps(body))
     print(h.text)
 
-with open("../../line/to.txt") as f:
-    toto=f.read().split()
+def gettoto():
+    with open("../../line/to.txt") as f:
+        toto=f.read().split()
+    return toto
 
 for contest in contests:
-    for to in toto:
+    for to in gettoto():
         sendmessage(to,contest)
