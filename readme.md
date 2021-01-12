@@ -7,6 +7,7 @@ Contest Notifierというbot (line, discord) のgithubです。詳しくはそ�
 ```
 C:.
 ├─atcoder(ここのGitHubの親ディレクトリ)
+│  │  .gitignore
 │  │  readme.md
 │  │
 │  ├─contest-notifier-all
@@ -31,6 +32,7 @@ C:.
 │          atcoderbot_discord.py
 │          colors.ini
 │          create_atcoder_role.py
+│          kill_atcoderbot_discord.py
 │          readme.md
 │
 ├─discord
@@ -44,7 +46,8 @@ C:.
 │
 └─line
         accesstoken.txt
-        to.txt
+        dburl.txt(送り先を可変にしたいときにGETアクセスで返り値がjson形式でArray[送り先]となるurlを指定してください)
+        to.txt(送り先を固定したいときに送り先を改行区切りで入力し利用してください)
 
 ```
 
