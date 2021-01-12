@@ -11,7 +11,6 @@ git_control=lambda c:subprocess.run(['git', c, 'origin', 'master'])
 pull=lambda:git_control("pull")
 push=lambda:git_control("push")
 
-commit()
 pull()
 commit()
 push()
