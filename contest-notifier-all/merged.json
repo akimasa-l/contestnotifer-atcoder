@@ -16,14 +16,15 @@
         },
         "rated": " ~ 2799",
         "url": "https://atcoder.jp/contests/keyence2021",
-        "point": "null",
         "writer": [
-            "null"
+            "camypaper",
+            "maroonrk"
         ],
         "problemnumber": [
             "\u554f\u984c\u6570\uff1a",
-            "null"
-        ]
+            "6"
+        ],
+        "point": "\u914d\u70b9\u306f 300-400-500-700-700-1000 \u3067\u3059\u3002"
     },
     "AtCoder Beginner Contest 189": {
         "name": "AtCoder Beginner Contest 189",
