@@ -37,10 +37,9 @@ def merge_contests_and_posts(contests,posts):
     #print(*(an.items()),sep="\n")
     return an
 
-def make_message(flag,message):
+def make_message(head,message):
     date={j:int(k)for j,k in message["date"].items()}
     cdate=datetime.datetime(date["year"], date["month"], date["day"], date["hour"], date["minute"], date["second"],tzinfo=JST)
-    head="【新しいコンテストが追加されました】"if flag else "【コンテスト一時間前】"
     return head+f"""
 
 {message["name"]} が開催されます。
@@ -59,15 +58,15 @@ def get_diffs(past,now):#want name_based
     pastkeys=past.keys()
     for i in now.keys():
         if i not in pastkeys:
-            messages.append(make_message(1,now[i]))
+            messages.append(make_message("【新しいコンテストが追加されました】",now[i]))
 
-def get_near(now):#want original
+def get_near(now,hours,head):#want original
     nowdate=datetime.datetime.now(JST)
     for i in now:
         date={j:int(k)for j,k in i["date"].items()}
         cdate=datetime.datetime(date["year"], date["month"], date["day"], date["hour"], date["minute"], date["second"],tzinfo=JST)
-        if cdate-nowdate<datetime.timedelta(hours=1,minutes=30):
-            messages.append(make_message(0,i))
+        if datetime.timedelta(hours=hours-1,minutes=30)<cdate-nowdate<datetime.timedelta(hours=hours,minutes=30):
+            messages.append(make_message(f"【コンテスト{head}前】",i))
 
 def search_sendmessage_py():
     path="./sendmessage_*.py"
@@ -88,7 +87,8 @@ def main():
     with open("./merged.json",mode="w") as f:
         f.write(json.dumps(merged,indent=4))
     get_diffs(past,merged)
-    get_near(make_original(merged))
+    get_near(make_original(merged),1,"一時間")
+    get_near(make_original(merged),24,"一日")
     if messages:
         print(f"New {len(messages)} messages are found.")
         with open("./messages.json",mode="w") as f:
