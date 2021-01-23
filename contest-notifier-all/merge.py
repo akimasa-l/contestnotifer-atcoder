@@ -100,8 +100,9 @@ def main():
     with open("./merged.json", mode="w") as f:
         f.write(json.dumps(merged, indent=4))
     get_diffs(past, merged)
+    original = make_original(merged)
     for i in notify_time:
-        get_near(make_original(merged), i["hours"], i["name"])
+        get_near(original, i["hours"], i["name"])
     if messages:
         print(f"New {len(messages)} messages are found.")
         with open("./messages.json", mode="w") as f:
