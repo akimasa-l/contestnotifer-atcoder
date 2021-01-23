@@ -42,6 +42,10 @@
 
 1. sendmessage_*.pyで送る。
 
+# 設定ファイル
+
+`notify_time.json`で1日前に通知を送ったり1時間前に通知を送ることができます。
+
 [1]:https://atcoder.jp/contests/
 
 [2]:https://atcoder.jp/posts/
