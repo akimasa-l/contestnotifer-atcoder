@@ -44,7 +44,7 @@
 
 # 設定ファイル
 
-`notify_time.json`で1日前に通知を送ったり1時間前に通知を送ることができます。
+`notify_time.json`で1日前に通知を送ったり1時間前に通知を送ることの設定ができます。
 
 [1]:https://atcoder.jp/contests/
 
