@@ -94,12 +94,14 @@ def main():
         contests = json.load(f)
     with open("./get_from_posts.json") as f:
         posts = json.load(f)
+    with open("./notify_time.json")as f:
+        notify_time = json.load(f)
     merged = merge_contests_and_posts(contests, posts)
     with open("./merged.json", mode="w") as f:
         f.write(json.dumps(merged, indent=4))
     get_diffs(past, merged)
-    get_near(make_original(merged), 1, "一時間")
-    get_near(make_original(merged), 24, "一日")
+    for i in notify_time:
+        get_near(make_original(merged), i["hours"], i["name"])
     if messages:
         print(f"New {len(messages)} messages are found.")
         with open("./messages.json", mode="w") as f:
