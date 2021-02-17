@@ -9,6 +9,9 @@ import glob
 JST = datetime.timezone(datetime.timedelta(hours=+9), 'JST')
 messages = []
 
+with open("./timedelta.json") as f:
+    timedelta=json.load(f)
+
 
 def make_name_based_object(a):
     return {i["name"]: i for i in a}
@@ -73,7 +76,7 @@ def get_near(now, hours, head):  # want original
         date = {j: int(k)for j, k in i["date"].items()}
         cdate = datetime.datetime(date["year"], date["month"], date["day"],
                                   date["hour"], date["minute"], date["second"], tzinfo=JST)
-        if datetime.timedelta(hours=hours-1, minutes=30) < cdate-nowdate < datetime.timedelta(hours=hours, minutes=30):
+        if datetime.timedelta(hours=hours-1, minutes=timedelta) < cdate-nowdate < datetime.timedelta(hours=hours, minutes=timedelta):
             messages.append(make_message(f"【コンテスト{head}前】", i))
 
 

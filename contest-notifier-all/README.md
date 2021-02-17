@@ -45,6 +45,7 @@
 # 設定ファイル
 
 `notify_time.json`で1日前に通知を送ったり1時間前に通知を送ることの設定ができます。
+`timedelta.json`で判定する時間の誤差を指定できます。標準では30分になっています。
 
 [1]:https://atcoder.jp/contests/
 
