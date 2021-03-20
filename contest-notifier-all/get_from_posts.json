@@ -1,5 +1,16 @@
 [
     {
+        "name": "AtCoder Regular Contest 115",
+        "problemnumber": [
+            "\u554f\u984c\u6570\uff1a",
+            "6"
+        ],
+        "writer": [
+            "ynymxiaolongbao"
+        ],
+        "point": "\u914d\u70b9\u306f 300-400-500-600-700-1000 \u3067\u3059\u3002"
+    },
+    {
         "name": "AtCoder Beginner Contest 196",
         "problemnumber": [
             "\u554f\u984c\u6570\uff1a",
@@ -117,17 +128,5 @@
             "QCFium"
         ],
         "point": "\u914d\u70b9\u306f 100-200-300-400-500-600 \u3067\u3059\u3002"
-    },
-    {
-        "name": "AtCoder Regular Contest 112",
-        "problemnumber": [
-            "\u554f\u984c\u6570\uff1a",
-            "6"
-        ],
-        "writer": [
-            "nuip",
-            "potetisensei"
-        ],
-        "point": "\u914d\u70b9\u306f 300-400-500-600-700-900 \u3067\u3059\u3002"
     }
 ]
