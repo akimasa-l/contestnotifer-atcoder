@@ -1,23 +1,5 @@
 [
     {
-        "name": "AtCoder Regular Contest 116",
-        "date": {
-            "year": "2021",
-            "month": "03",
-            "day": "28",
-            "hour": "21",
-            "minute": "00",
-            "second": "00",
-            "gmt": "0900"
-        },
-        "dtime": {
-            "hour": "02",
-            "minute": "00"
-        },
-        "rated": " ~ 2799",
-        "url": "https://atcoder.jp/contests/arc116"
-    },
-    {
         "name": "AtCoder Grand Contest 053",
         "date": {
             "year": "2021",
