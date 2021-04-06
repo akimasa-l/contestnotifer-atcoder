@@ -18,6 +18,24 @@
         "url": "https://atcoder.jp/contests/agc053"
     },
     {
+        "name": "AtCoder Beginner Contest 198",
+        "date": {
+            "year": "2021",
+            "month": "04",
+            "day": "11",
+            "hour": "21",
+            "minute": "00",
+            "second": "00",
+            "gmt": "0900"
+        },
+        "dtime": {
+            "hour": "01",
+            "minute": "40"
+        },
+        "rated": " ~ 1999",
+        "url": "https://atcoder.jp/contests/abc198"
+    },
+    {
         "name": "\u7b2c\u4e8c\u56de\u65e5\u672c\u6700\u5f37\u30d7\u30ed\u30b0\u30e9\u30de\u30fc\u5b66\u751f\u9078\u624b\u6a29",
         "date": {
             "year": "2021",
@@ -52,24 +70,6 @@
         },
         "rated": " ~ 2799",
         "url": "https://atcoder.jp/contests/arc117"
-    },
-    {
-        "name": "\u7b2c1\u56de \u65e5\u672c\u60c5\u5831\u30aa\u30ea\u30f3\u30d4\u30c3\u30af\u5973\u6027\u90e8\u9580 (4\u670825\u65e5(\u65e5))",
-        "date": {
-            "year": "2021",
-            "month": "04",
-            "day": "25",
-            "hour": "13",
-            "minute": "00",
-            "second": "00",
-            "gmt": "0900"
-        },
-        "dtime": {
-            "hour": "03",
-            "minute": "00"
-        },
-        "rated": "-",
-        "url": "https://atcoder.jp/contests/joig2021"
     },
     {
         "name": "AtCoder Heuristic Contest 002",
