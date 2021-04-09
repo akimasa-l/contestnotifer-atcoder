@@ -11,19 +11,19 @@
             "gmt": "0900"
         },
         "dtime": {
-            "hour": "02",
-            "minute": "30"
+            "hour": "03",
+            "minute": "00"
         },
         "rated": "1200 ~ ",
         "url": "https://atcoder.jp/contests/agc053",
-        "point": "null",
         "writer": [
-            "null"
+            "yutaka1999"
         ],
         "problemnumber": [
             "\u554f\u984c\u6570\uff1a",
-            "null"
-        ]
+            "6"
+        ],
+        "point": "\u914d\u70b9\u306f 400-700-900-1000-1400-2400 \u3067\u3059\u3002"
     },
     "AtCoder Beginner Contest 198": {
         "name": "AtCoder Beginner Contest 198",
