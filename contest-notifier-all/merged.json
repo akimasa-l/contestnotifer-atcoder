@@ -16,14 +16,18 @@
         },
         "rated": " ~ 1999",
         "url": "https://atcoder.jp/contests/abc198",
-        "point": "null",
         "writer": [
-            "null"
+            "Kmcode",
+            "kyopro_friends",
+            "sheyasutaka",
+            "tatyam",
+            "ynymxiaolongbao"
         ],
         "problemnumber": [
             "\u554f\u984c\u6570\uff1a",
-            "null"
-        ]
+            "6"
+        ],
+        "point": "\u914d\u70b9\u306f 100-200-300-400-500-600 \u3067\u3059\u3002"
     },
     "\u7b2c\u4e8c\u56de\u65e5\u672c\u6700\u5f37\u30d7\u30ed\u30b0\u30e9\u30de\u30fc\u5b66\u751f\u9078\u624b\u6a29": {
         "name": "\u7b2c\u4e8c\u56de\u65e5\u672c\u6700\u5f37\u30d7\u30ed\u30b0\u30e9\u30de\u30fc\u5b66\u751f\u9078\u624b\u6a29",
