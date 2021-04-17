@@ -16,14 +16,15 @@
         },
         "rated": " ~ 2799",
         "url": "https://atcoder.jp/contests/arc117",
-        "point": "null",
         "writer": [
-            "null"
+            "E869120",
+            "square1001"
         ],
         "problemnumber": [
             "\u554f\u984c\u6570\uff1a",
-            "null"
-        ]
+            "6"
+        ],
+        "point": "\u914d\u70b9\u306f 200-400-600-600-900-900 \u3067\u3059\u3002"
     },
     "AtCoder Beginner Contest 199\uff08Sponsored by Panasonic\uff09": {
         "name": "AtCoder Beginner Contest 199\uff08Sponsored by Panasonic\uff09",
