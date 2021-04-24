@@ -1,34 +1,4 @@
 {
-    "AtCoder Beginner Contest 199\uff08Sponsored by Panasonic\uff09": {
-        "name": "AtCoder Beginner Contest 199\uff08Sponsored by Panasonic\uff09",
-        "date": {
-            "year": "2021",
-            "month": "04",
-            "day": "24",
-            "hour": "21",
-            "minute": "00",
-            "second": "00",
-            "gmt": "0900"
-        },
-        "dtime": {
-            "hour": "01",
-            "minute": "40"
-        },
-        "rated": " ~ 1999",
-        "url": "https://atcoder.jp/contests/abc199",
-        "writer": [
-            "evima",
-            "kyopro_friends",
-            "QCFium",
-            "satashun",
-            "ynymxiaolongbao"
-        ],
-        "problemnumber": [
-            "\u554f\u984c\u6570\uff1a",
-            "6"
-        ],
-        "point": "\u914d\u70b9\u306f 100-200-300-400-500-600 \u3067\u3059\u3002"
-    },
     "AtCoder Heuristic Contest 002": {
         "name": "AtCoder Heuristic Contest 002",
         "date": {
