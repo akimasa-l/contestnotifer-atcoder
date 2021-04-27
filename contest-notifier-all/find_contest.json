@@ -72,7 +72,7 @@
         "url": "https://atcoder.jp/contests/ahc003"
     },
     {
-        "name": "AtCoder Regular Contest 119",
+        "name": "AtCoder Regular Contest 120",
         "date": {
             "year": "2021",
             "month": "05",
@@ -87,6 +87,6 @@
             "minute": "00"
         },
         "rated": " ~ 2799",
-        "url": "https://atcoder.jp/contests/arc119"
+        "url": "https://atcoder.jp/contests/arc120"
     }
 ]
