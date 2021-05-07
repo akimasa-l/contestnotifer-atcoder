@@ -1,5 +1,16 @@
 [
     {
+        "name": "\u4eac\u30bb\u30e9\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u30b3\u30f3\u30c6\u30b9\u30c82021\uff08AtCoder Beginner Contest 200\uff09",
+        "problemnumber": [
+            "\u554f\u984c\u6570\uff1a",
+            "6"
+        ],
+        "writer": [
+            "physics0523"
+        ],
+        "point": "\u914d\u70b9\u306f 100,200,300,400,500,600 \u3067\u3059\u3002"
+    },
+    {
         "name": "ZONe\u30a8\u30ca\u30b8\u30fc \u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u30b3\u30f3\u30c6\u30b9\u30c8  \u201cHELLO SPACE\u201d",
         "problemnumber": [
             "\u554f\u984c\u6570\uff1a",
@@ -98,24 +109,5 @@
             "kort0n"
         ],
         "point": "\u914d\u70b9\u306f 300-400-500-500-800-800 \u3067\u3059\u3002"
-    },
-    {
-        "name": "AtCoder Beginner Contest 197\uff08Sponsored by Panasonic\uff09",
-        "problemnumber": [
-            "\u554f\u984c\u6570\uff1a",
-            "6"
-        ],
-        "writer": [
-            "evima",
-            "Kmcode",
-            "QCFium",
-            "satashun",
-            "ynymxiaolongbao",
-            "beet",
-            "kort0n",
-            "heno239",
-            "tempura0224"
-        ],
-        "point": "\u914d\u70b9\u306f 100-200-300-400-500-600 \u3067\u3059\u3002"
     }
 ]

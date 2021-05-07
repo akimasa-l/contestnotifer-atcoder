@@ -16,14 +16,14 @@
         },
         "rated": " ~ 1999",
         "url": "https://atcoder.jp/contests/abc200",
-        "point": "null",
         "writer": [
-            "null"
+            "physics0523"
         ],
         "problemnumber": [
             "\u554f\u984c\u6570\uff1a",
-            "null"
-        ]
+            "6"
+        ],
+        "point": "\u914d\u70b9\u306f 100,200,300,400,500,600 \u3067\u3059\u3002"
     },
     "AtCoder Regular Contest 118": {
         "name": "AtCoder Regular Contest 118",
