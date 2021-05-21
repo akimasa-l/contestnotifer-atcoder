@@ -1,5 +1,16 @@
 [
     {
+        "name": "AtCoder Heuristic Contest 003",
+        "problemnumber": [
+            "Writer\uff1a<a",
+            "href=\"/users/wata\"",
+            "class=\"username\"><span",
+            "class=\"user-yellow\">wata</span></a>"
+        ],
+        "writer": [],
+        "point": "null"
+    },
+    {
         "name": "AtCoder Regular Contest 119",
         "problemnumber": [
             "\u554f\u984c\u6570\uff1a",
@@ -96,33 +107,5 @@
             "square1001"
         ],
         "point": "\u914d\u70b9\u306f 200-400-600-600-900-900 \u3067\u3059\u3002"
-    },
-    {
-        "name": "\u7b2c\u4e8c\u56de\u65e5\u672c\u6700\u5f37\u30d7\u30ed\u30b0\u30e9\u30de\u30fc\u5b66\u751f\u9078\u624b\u6a29",
-        "problemnumber": [
-            "\u554f\u984c\u6570\uff1a",
-            "8"
-        ],
-        "writer": [
-            "kyopro_friends",
-            "QCFium",
-            "tatyam"
-        ],
-        "point": "\u914d\u70b9\u306f 100-200-300-400-500-600-600-600 \u3067\u3059\u3002"
-    },
-    {
-        "name": "AtCoder Beginner Contest 198",
-        "problemnumber": [
-            "\u554f\u984c\u6570\uff1a",
-            "6"
-        ],
-        "writer": [
-            "Kmcode",
-            "kyopro_friends",
-            "sheyasutaka",
-            "tatyam",
-            "ynymxiaolongbao"
-        ],
-        "point": "\u914d\u70b9\u306f 100-200-300-400-500-600 \u3067\u3059\u3002"
     }
 ]
