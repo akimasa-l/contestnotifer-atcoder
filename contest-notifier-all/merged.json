@@ -1,30 +1,4 @@
 {
-    "NOMURA \u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u30b3\u30f3\u30c6\u30b9\u30c8 2021(AtCoder Regular Contest 121)": {
-        "name": "NOMURA \u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u30b3\u30f3\u30c6\u30b9\u30c8 2021(AtCoder Regular Contest 121)",
-        "date": {
-            "year": "2021",
-            "month": "05",
-            "day": "29",
-            "hour": "21",
-            "minute": "00",
-            "second": "00",
-            "gmt": "0900"
-        },
-        "dtime": {
-            "hour": "02",
-            "minute": "00"
-        },
-        "rated": " ~ 2799",
-        "url": "https://atcoder.jp/contests/arc121",
-        "writer": [
-            "camypaper"
-        ],
-        "problemnumber": [
-            "\u554f\u984c\u6570\uff1a",
-            "6"
-        ],
-        "point": "\u914d\u70b9\u306f 400-500-500-700-700-800 \u3067\u3059\u3002"
-    },
     "AtCoder Beginner Contest 203\uff08Sponsored by Panasonic\uff09": {
         "name": "AtCoder Beginner Contest 203\uff08Sponsored by Panasonic\uff09",
         "date": {
