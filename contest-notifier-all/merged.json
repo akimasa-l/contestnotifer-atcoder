@@ -76,5 +76,31 @@
             "\u554f\u984c\u6570\uff1a",
             "null"
         ]
+    },
+    "STAGE:0 \u7af6\u6280\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u9ad8\u6821\u751f\u5927\u4f1a powered by AtCoder": {
+        "name": "STAGE:0 \u7af6\u6280\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u9ad8\u6821\u751f\u5927\u4f1a powered by AtCoder",
+        "date": {
+            "year": "2021",
+            "month": "08",
+            "day": "07",
+            "hour": "16",
+            "minute": "00",
+            "second": "00",
+            "gmt": "0900"
+        },
+        "dtime": {
+            "hour": "04",
+            "minute": "00"
+        },
+        "rated": "-",
+        "url": "https://atcoder.jp/contests/stage0-2021",
+        "point": "null",
+        "writer": [
+            "null"
+        ],
+        "problemnumber": [
+            "\u554f\u984c\u6570\uff1a",
+            "null"
+        ]
     }
 }
