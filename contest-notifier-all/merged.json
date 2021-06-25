@@ -16,14 +16,14 @@
         },
         "rated": "-",
         "url": "https://atcoder.jp/contests/ahc004",
-        "point": "null",
-        "writer": [
-            "null"
-        ],
+        "writer": [],
         "problemnumber": [
-            "\u554f\u984c\u6570\uff1a",
-            "null"
-        ]
+            "Writer\uff1a<a",
+            "href=\"/users/wata\"",
+            "class=\"username\"><span",
+            "class=\"user-yellow\">wata</span></a>"
+        ],
+        "point": "null"
     },
     "AtCoder Beginner Contest 207": {
         "name": "AtCoder Beginner Contest 207",
