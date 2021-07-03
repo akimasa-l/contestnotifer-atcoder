@@ -1,5 +1,16 @@
 [
     {
+        "name": "AtCoder Beginner Contest 208",
+        "problemnumber": [
+            "\u554f\u984c\u6570\uff1a",
+            "6"
+        ],
+        "writer": [
+            "Nyaan"
+        ],
+        "point": "\u914d\u70b9\u306f 100-200-300-400-500-600 \u3067\u3059\u3002"
+    },
+    {
         "name": "AtCoder Grand Contest 054",
         "problemnumber": [
             "\u554f\u984c\u6570\uff1a",
@@ -104,16 +115,5 @@
             "camypaper"
         ],
         "point": "\u914d\u70b9\u306f 400-500-500-700-700-800 \u3067\u3059\u3002"
-    },
-    {
-        "name": "AtCoder Regular Contest 120",
-        "problemnumber": [
-            "\u554f\u984c\u6570\uff1a",
-            "6"
-        ],
-        "writer": [
-            "QCFium"
-        ],
-        "point": "\u914d\u70b9\u306f 400-400-500-600-700-1600(800) \u3067\u3059\u3002"
     }
 ]
