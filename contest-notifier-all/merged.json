@@ -1,30 +1,4 @@
 {
-    "AtCoder Regular Contest 123": {
-        "name": "AtCoder Regular Contest 123",
-        "date": {
-            "year": "2021",
-            "month": "07",
-            "day": "18",
-            "hour": "21",
-            "minute": "00",
-            "second": "00",
-            "gmt": "0900"
-        },
-        "dtime": {
-            "hour": "02",
-            "minute": "00"
-        },
-        "rated": " ~ 2799",
-        "url": "https://atcoder.jp/contests/arc123",
-        "writer": [
-            "maspy"
-        ],
-        "problemnumber": [
-            "\u554f\u984c\u6570\uff1a",
-            "6"
-        ],
-        "point": "\u914d\u70b9\u306f 300-400-600-700-700-1000 \u3067\u3059\u3002"
-    },
     "AtCoder Beginner Contest 211": {
         "name": "AtCoder Beginner Contest 211",
         "date": {
